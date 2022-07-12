@@ -1,14 +1,6 @@
 /*------------ [Font] -----------*/
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
 
-@font-face {
-  font-family: 'peachy';
-  src: url('../src/assets/Peachy/just-peachy-70s-webfont.woff2') format('woff2'),
-      url('../src/assets/Peachy/just-peachy-70s-webfont.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
-
 /*------------ [Root]-----------*/
 :root {
 
@@ -17,14 +9,12 @@
     --bg-color: #fefaf6;
     --black-color: #0c0c0c;
     --grey-color: #D9D9D9;
-    --blue-color: #0074ea;
-
+    --purple-color: #8975ff;
+    --gradient-color: linear-gradient(90deg, #8975ff, #ce85df 50%, #b3a2fd);
 
     /* FontStyle*/
     --fontOne: 'Inter', sans-serif;
-    --fontTwo: 'Peachy';
-    
-
+   
     /* Font Sizes */
     --font-thirtyTwo: 1.35rem;
     --font-twentyFour: 1.25rem;
@@ -67,7 +57,7 @@ html {
 body {
     max-width: 1440px;
     height: 100vh;
-    background-color: var(--bg-color);
+    background-color: var(--white-color);
     font-family: var(--fontOne);
     color: var(--black-color);
     letter-spacing: 1px;
@@ -154,171 +144,6 @@ img {
   /* gap: 2rem; */
   /* max-width: 2560px; */
 }
-
-/*--------------- [_Header] -------------*/
-
-.navHeader{
-  background-color: none;
-  display: flex;
-  padding: 2rem 2rem 1rem;
-  align-items: center;
-  justify-content: space-between;
-  z-index: 2;
-  position: relative;
-}
-
-.desktopDisplay{
-    display: none;
-}
-
-.mobileMenu{
-    display: flex;
-    flex-direction: column;
-    width: 70%;
-    height: 100vh;
-    position: fixed;
-    top: 0;
-    z-index: 3;
-    box-shadow: 0px 5px 30px 0px rgb(95 93 93 / 52%);
-    -webkit-box-shadow: 0px 5px 30px 0px rgb(95 93 93 / 52%);
-    -moz-box-shadow: 0px 5px 30px 0px rgb(95 93 93 / 52%);
-    font-size: var(--font-eighteen);
-    transform: translateX(0%);
-    -webkit-transition: .5s;
-    transition: .5s;
-    justify-content: space-between;
-    color: var(--white-color);
-    background: var(--black-color);
-}
-
-.active{
-    transform: translate3d(-70%, 0, 0);
-	animation-timing-function: 1s ease-in;
-}
-
-.mobileLogo h4{
-  /* width: 30px; */
-  color: var(--white-color);
-  font-family: var(--fontTwo);
-}
-
-.navToggle{
-    cursor: pointer;
-}
-
-.bar{
-    width: 25px;
-    height: 3px;
-    margin: 4px;
-    background: var(--white-color);
-    transition: .4s;
-}
-
-.bTwo{
-    width: 1rem;
-    transform: translateX(8px);
-}
-
-.change .bar{
-    display: block;
-    background: var(--white-color);
-    cursor: pointer;
-}
-
-.change .bOne{ 
-    transform: translateY(5px) rotate(45deg);
-}
-
-.change .bTwo{
-    opacity: 0;
-}
-
-.change .bThree{
-    transform: translateY(-8.75px) rotate(-45deg);
-}
-
-.mobileDisplay .navItems{
-    margin: 2rem 2rem 0;
-}
-
-.navList{
-    padding: 2rem 0;
-    font-weight: 500;
-}
-
-.navLink{
-    text-transform: uppercase;
-    color: var(--white-color);
-}
-
-.mobileDisplay .navLink:hover, .mobileDisplay .navLink:focus{
-    color: var(--blue-color);
-    transition: .3s ease-in-out;
-    border-bottom: 2px solid var(--blue-color);
-}
-
-.navFooter{
-    margin: 1rem 2rem 2rem;
-}
-
-.navSocialLinks{
-    display: flex;
-    font-size: var(--font-fourteen);
-    justify-content: space-between;
-}
-
-.copyrightWhite p{
-    font-size: var(--font-twelve);
-    color: var(--white-color);
-    margin-top: 2rem;
-}
-
-@media screen and (min-width: 500px) {
-    .navSocialLinks{
-        width: 55%;
-    }
-}
-
-@media screen and (min-width: 900px){
-  .mobileDisplay{
-    display: none; 
-  }
-
-  .desktopDisplay{
-    background: transparent;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: absolute;
-    z-index: 1;
-    padding: 2rem 2rem;
-    width: 100%;
-  }
-
-  .navItems{
-      display: flex;
-  }
-
-  .navList{
-      padding: 0 2rem;
-  }
-
-  .navLink{
-      font-size: var(--font-twelve);
-  }
-
-  .desktopDisplay .navLink:hover, .desktopDisplay .navLink:active{
-      color: var(--blue-color);
-      transition: .3s ease-in-out;
-      border-bottom: 2px solid var(--blue-color);
-  }
-
-  .navRight{
-      font-weight: 500;
-  }
-
-}
-
 
 
 
