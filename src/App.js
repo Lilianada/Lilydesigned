@@ -3,8 +3,9 @@ import React from "react";
 function App() {
   return (
     <div className="App">
-      <main className='bodyWrapper'></main>
-      
+      <main className='mainWrapper'>
+        
+      </main>
     </div>
   );
 }
