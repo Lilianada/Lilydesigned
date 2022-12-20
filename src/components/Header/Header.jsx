@@ -1,42 +1,37 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import ErrorBoundary from "../ErrorBoundary/ErrorBoundary";
+import {ErrorBoundary} from "../../components";
 import "./Header.scss";
 
 export default function Header() {
-  // const [toggle, setToggle] = useState(false);
+  const [active, setActive] = useState(1);
 
-  // const handleToggle = () => {
-  //   setToggle(!toggle);
-  // };
+  const isActive = (index) => {
+    setActive(index);
+  };
+
   return (
     <ErrorBoundary>
-      <div className="headers">
-        <header className="stylistDesktop__Header">
+        <header className="header">
             <nav className="navItems">
-              <Link to="/" className="logoName">
+              <Link to="/" className={active === 1 ? "activeLogo" : "LogoName"} onClick={() => isActive(1)} >
                 ThingsbyLilian
               </Link>
 
               <ul className="navList">
-                <li className="navItem">
-                  <Link to="/portfolio" className="navLink">
+                <li className="navItem" onClick={() => isActive(2)}>
+                  <Link to="/portfolio" className={active === 2 ? "activeLink" : "navLink"}>
                     Portfolio
                   </Link>
                 </li>
-                <li className="navItem">
-                  <Link to="/journal" className="navLink">
+                <li className="navItem" onClick={() => isActive(3)}>
+                  <Link to="/journal" className={active === 3 ? "activeLink" : "navLink"}>
                     Journal
                   </Link>
                 </li>
               </ul>
             </nav>
         </header>
-
-        {/* <header className="stylistMobile__Header">
-          <img src={Logo} alt="Logo" />
-        </header> */}
-      </div>
     </ErrorBoundary>
   );
 }

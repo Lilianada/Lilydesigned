@@ -1,9 +1,6 @@
 import React from "react";
 import { Route, Routes } from "react-router-dom";
-import Header from "./components/Header/Header";
-import Home from "./pages/Home";
-import Portfolio from "./pages/Portfolio";
-import Journal from "./pages/Journal";
+import { Header, Home, Portfolio, Journal  } from "./components";
 
 function App() {
   return (

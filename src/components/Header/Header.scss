@@ -1,38 +1,51 @@
-.headers{
+.header {
     padding: 1.5rem 2rem;
 
-    .stylistDesktop__Header{
+    .navItems {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
 
-        .navItems{
+        .logoName {
+            font-family: var(--font-text);
+            font-size: var(--eighteen);
+            font-weight: 500;
+            line-height: 1.5rem;
+            color: var(--black);
+        }
+
+        .activeLogo {
+            font-family: var(--font-text);
+            font-size: var(--eighteen);
+            font-weight: 500;
+            line-height: 1.5rem;
+            color: var(--hotPink);
+        }
+
+        .navList {
             display: flex;
-            justify-content: space-between;
-            align-items: center;
 
-            .logoName{
-                font-family: var(--font-text);
-                font-size: var(--eighteen);
-                font-weight: 500;
-                color: var(--color);
-            }
+            .navItem {
+                &:first-child {
+                    margin-right: 1rem;
+                }
 
-            .navList{
-                display: flex;
-
-                .navItem{
-                    // display: inline;
-                    // margin: 0 1rem;
+                .navLink {
                     font-family: var(--font-text);
                     font-size: var(--fourteen);
-                    font-weight: 400;
+                    font-weight: 500;
                     line-height: 1.5rem;
                     color: var(--black);
+                }
 
-                    &:first-child{
-                        margin-right: 1rem;
-                    }
+                .activeLink {
+                    font-family: var(--font-text);
+                    font-size: var(--fourteen);
+                    font-weight: 500;
+                    line-height: 1.5rem;
+                    color: var(--hotPink);
                 }
             }
-
         }
     }
 }
