@@ -8,4 +8,8 @@ root.render(
   <React.StrictMode>
     <App />
   </React.StrictMode>
+<<<<<<< HEAD
 );
+=======
+);
+>>>>>>> fb0e860edde5fbff5b4bd8a6901b379c528a40f5
