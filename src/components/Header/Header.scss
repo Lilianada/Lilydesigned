@@ -1,0 +1,38 @@
+.headers{
+    padding: 1.5rem 2rem;
+
+    .stylistDesktop__Header{
+
+        .navItems{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .logoName{
+                font-family: var(--font-text);
+                font-size: var(--eighteen);
+                font-weight: 500;
+                color: var(--color);
+            }
+
+            .navList{
+                display: flex;
+
+                .navItem{
+                    // display: inline;
+                    // margin: 0 1rem;
+                    font-family: var(--font-text);
+                    font-size: var(--fourteen);
+                    font-weight: 400;
+                    line-height: 1.5rem;
+                    color: var(--black);
+
+                    &:first-child{
+                        margin-right: 1rem;
+                    }
+                }
+            }
+
+        }
+    }
+}
