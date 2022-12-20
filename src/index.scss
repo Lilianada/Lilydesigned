@@ -1,8 +1,11 @@
+@use "sass:string";
+$headFont: "butlermedium";
+$textFont: "Karla", sans-serif; 
+
 /*------------ [Font] -----------*/
 @import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;500;600;700&display=swap");
 
 /*------------ [Root]-----------*/
-
 $white: #ffffff;
 $text: #555555;
 $purple: #786090;
@@ -14,10 +17,6 @@ $black: #050205;
 $grey: #b8b8b8;
 $greyPro: #dedddd;
 $assets: rgba(137, 53, 131, 0.3);
-
-@use "sass:string";
-$headFont: "butlermedium";
-$textFont: "Karla", sans-serif;
 
 :root {
     /* Colors */
