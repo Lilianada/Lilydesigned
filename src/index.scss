@@ -37,14 +37,15 @@ $assets: rgba(137, 53, 131, 0.3);
     --font-text: #{$textFont};
 
     /* Font Sizes */
-    --fourty: 1.75rem;
-    --thirtyEight: 1.5rem;
-    --font-thirtyTwo: 1.35rem;
-    --font-twentyFour: 1.25rem;
-    --font-eighteen: 1.125rem;
-    --font-sixteen: .8725rem;
-    --font-fourteen: .88rem;
-    --font-twelve: .75rem;
+    --fourty: 2rem;
+    --thirtyEight: 1.95rem;
+    --thirtyTwo: 1.75rem;
+    --twentyFour: 1.25rem;
+    --twenty: 1.15rem;
+    --eighteen: 1.0625rem;
+    --sixteen: 1rem;
+    --fourteen: .88rem;
+    --twelve: .75rem;
     --ten: 0.625rem;
 }
 
@@ -55,11 +56,12 @@ $assets: rgba(137, 53, 131, 0.3);
         --thirtyTwo: 2rem;
         --thirty: 1.875rem;
         --twentyEight: 1.75rem;
-        --font-twentyFour: 1.5rem;
-        --font-eighteen: 1.25rem;
-        --font-sixteen: 1rem;
-        --font-fourteen: .88rem;
-        --font-twelve: .75rem;
+        --twentyFour: 1.5rem;
+        --twenty: 1.25rem;
+        --eighteen: 1.125rem;
+        --sixteen: 1rem;
+        --fourteen: .88rem;
+        --twelve: .75rem;
         --ten: 0.625rem;
     }
 }

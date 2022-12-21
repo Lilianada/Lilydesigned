@@ -1,12 +1,46 @@
 .aboutHero{
     display: grid;
     place-items: center;
+    margin: 0 auto;
+    justify-content: center;
+    text-align: center;
+    width: 90%;
 
-    .profileImg{
+    @media screen and (min-width: 768px){
+        width: 60%;
+    }
+
+    .profilePicture{
         width: 12rem;
         height: 12rem;
-        object-fit: cover;
-        border-radius: 50%;
-        margin-top: 2rem;
+        margin-top: 1rem;
+
+        @media screen and (min-width: 768px){
+            width: 15rem;
+            height: 15rem;
+        }
+        
+        .img{
+            object-fit: cover;
+            border-radius: 50%;
+        }
+    }
+
+    .profileDescription{
+        .title{
+            font-family: var(--font-text);
+            font-size: var(--thirtyTwo);
+            font-weight: 600;
+            line-height: 2rem;
+            text-align: center;
+            color: var(--black);
+            margin-top: 1rem;
+        }
+
+        .text{
+            margin-top: 1rem;
+            font-size: var(--twenty);
+            line-height: 1.25rem;
+        }
     }
 }
