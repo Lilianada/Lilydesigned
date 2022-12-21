@@ -1,6 +1,6 @@
 import React from "react";
 import { CiLinkedin } from "react-icons/ci";
-import { SiGithub } from "react-icons/si";
+import { SiGithub, SiInstagram } from "react-icons/si";
 
 export default function Contact() {
   return (
@@ -14,6 +14,7 @@ export default function Contact() {
         <div className="socialLinks">
             <CiLinkedin />
             <SiGithub/>
+            <SiInstagram />
         </div>
     </section>
   );

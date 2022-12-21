@@ -1,5 +1,6 @@
-export { default as Reviews } from "./Reviews/Reviews";
+export { default as Contact } from "./Contact/Contact";
 
+export { default as Reviews } from "./Reviews/Reviews";
 export { default as AboutMe } from "./AboutMe/AboutMe";
 export { default as AboutHero } from "./Hero/AboutHero/AboutHero";
 export { default as ErrorBoundary } from "./ErrorBoundary/ErrorBoundary";
