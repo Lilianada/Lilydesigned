@@ -10,5 +10,32 @@
         width: 34.5rem;
     }
     
-    
+    .reviewsSlider{
+        display: flex;
+        width: 90%;
+        margin: auto;
+
+        .next,
+            .prev {
+                top: calc(50%);
+                position: absolute;
+                width: 30px;
+                height: 30px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                user-select: none;
+                cursor: pointer;
+                z-index: 2;
+            }
+
+            .next {
+                right: 0px;
+            }
+
+            .prev {
+                left: -3px;
+            }
+
+    }
 }
