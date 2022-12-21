@@ -10,22 +10,12 @@
         width: 34.5rem;
     }
 
-    .title{
-        font-family: var(--font-text);
-        font-size: var(--thirtyEight);
-        font-weight: 600;
-        line-height: 2rem;
-        text-align: center;
-        color: var(--black);
-        margin-top: 1rem;
-    }
-
     .aboutDescription{
         .text{
             margin-top: 1rem;
             font-size: var(--twenty);
             line-height: 2rem;
-            text-align: left;
+            text-align: center;
         }
     }
 }

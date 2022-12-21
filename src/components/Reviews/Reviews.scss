@@ -1,0 +1,14 @@
+.reviewsSection{
+    display: grid;
+    place-items: center;
+    margin: 0 auto;
+    justify-content: center;
+    text-align: center;
+    width: 90%;
+
+    @media screen and (min-width: 768px){
+        width: 34.5rem;
+    }
+    
+    
+}

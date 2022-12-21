@@ -261,9 +261,13 @@ button {
 }
 
 .title{
-    font-size: var(--thirtyTwo);
-    font-weight: 500;
-    line-height: 2.5rem;
+    font-family: var(--font-text);
+    font-size: var(--thirtyEight);
+    font-weight: 600;
+    line-height: 2rem;
+    text-align: center;
+    color: var(--black);
+    margin-top: 1rem;
 }
 
 .subtitle{
