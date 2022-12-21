@@ -1,5 +1,5 @@
 import React from "react";
-import { AboutHero, AboutMe, Header } from "../components";
+import { AboutHero, AboutMe, Header, Reviews } from "../components";
 
 export default function About() {
   return (
@@ -7,6 +7,7 @@ export default function About() {
         <Header />
         <AboutHero />
         <AboutMe/>
+        {/* <Reviews /> */}
     </main>
   );
 }
