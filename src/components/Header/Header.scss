@@ -1,5 +1,9 @@
 .header {
-    padding: 1.5rem 2rem;
+    padding: 2rem 1rem;
+
+    @media screen and (min-width: 768px) {
+        padding: 2rem 2rem;
+    }
 
     .navItems {
         display: flex;
@@ -8,7 +12,7 @@
 
         .logoName {
             font-family: var(--font-text);
-            font-size: var(--eighteen);
+            font-size: 1.15rem;
             font-weight: 500;
             line-height: 1.5rem;
             color: var(--black);
@@ -16,7 +20,7 @@
 
         .activeLogo {
             font-family: var(--font-text);
-            font-size: var(--eighteen);
+            font-size: 1.15rem;
             font-weight: 500;
             line-height: 1.5rem;
             color: var(--hotPink);
@@ -32,7 +36,7 @@
 
                 .navLink {
                     font-family: var(--font-text);
-                    font-size: var(--fourteen);
+                    font-size: 1rem;
                     font-weight: 500;
                     line-height: 1.5rem;
                     color: var(--black);
@@ -40,7 +44,7 @@
 
                 .activeLink {
                     font-family: var(--font-text);
-                    font-size: var(--fourteen);
+                    font-size: 1rem;
                     font-weight: 500;
                     line-height: 1.5rem;
                     color: var(--hotPink);
