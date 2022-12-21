@@ -1,5 +1,6 @@
 import React from "react";
 import Pic from "../../../assets/images/Placeholder.png";
+import {HiArrowLongDown} from "react-icons/hi2";
 import "./AboutHero.scss";
 
 export default function AboutHero() {
@@ -14,12 +15,14 @@ export default function AboutHero() {
         </h3>
         <p className="text">
           I am passionate about web technologies and enjoys working at the
-          intersection of creativity and user-friendly interfaces. 
+          intersection of creativity and user-friendly interfaces.
         </p>
         <div className="buttonWrap">
-            
+          <button className="btnPrimary">Curriculum Vitae</button>
+          <button className="btnSecondary">Cover Letter</button>
         </div>
       </div>
+      <HiArrowLongDown />
     </section>
   );
 }

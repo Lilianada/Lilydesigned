@@ -5,7 +5,7 @@ import { About, Portfolio, Journal  } from "./components";
 function App() {
   return (
     <div className="App">
-      <main className='mainWrapper'>
+      <main>
         <Routes>
           <Route path="/" element={<About/>} />
           <Route path="/portfolio" element={<Portfolio/>} />

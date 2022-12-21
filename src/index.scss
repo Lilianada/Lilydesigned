@@ -12,7 +12,7 @@ $purple: #786090;
 $litePurple: #eadaf0;
 $pink: #ebcce9;
 $hotPink: #893583;
-$litePink: #faeff9;
+$litePink: #FFFBFF;
 $black: #050205;
 $grey: #b8b8b8;
 $greyPro: #dedddd;
@@ -188,57 +188,59 @@ button {
 }
 
 
-.errorMsg {
-    background: rgba(255, 61, 0, 0.15);
-    border-radius: 12px;
-    color: #ff3d00;
-    padding: 0.5rem 1rem;
-    font-size: var(--twenty);
-    margin-top: 0.5rem;
-    display: none;
-}
+// .errorMsg {
+//     background: rgba(255, 61, 0, 0.15);
+//     border-radius: 12px;
+//     color: #ff3d00;
+//     padding: 0.5rem 1rem;
+//     font-size: var(--twenty);
+//     margin-top: 0.5rem;
+//     display: none;
+// }
 
-.successMsg {
-    background: #7ef1b6;
-    border-radius: 12px;
-    color: #0f9851;
-    padding: 0.5rem 1rem;
-    font-size: var(--twenty);
-    margin-top: 0.5rem;
-    display: none;
-}
+// .successMsg {
+//     background: #7ef1b6;
+//     border-radius: 12px;
+//     color: #0f9851;
+//     padding: 0.5rem 1rem;
+//     font-size: var(--twenty);
+//     margin-top: 0.5rem;
+//     display: none;
+// }
 
-.activeBtn {
-    background-color: var(--black);
-    color: var(--white);
-}
+// .activeBtn {
+//     background-color: var(--black);
+//     color: var(--white);
+// }
 
-.inactiveBtn {
-    background-color: #BEBEBE;
-    color: var(--white);
-}
+// .inactiveBtn {
+//     background-color: #BEBEBE;
+//     color: var(--white);
+// }
 
-.buttonClicked {
-    color: var(--black);
-}
 
 .btnPrimary {
-    padding: 0.5rem 0.75rem;
+    background: var(--litePink);
+    height: 3rem;
+    color: var(--black);
+    border: 1px solid var(--hotPink);
+    padding: 0.75rem 1rem;
     font-size: var(--twenty);
     font-weight: 500;
-    border: none;
     border-radius: 12px;
-    cursor: pointer;
     transition: all 0.3s ease;
     outline: none;
 }
 
 .btnSecondary {
-    padding: 0.5rem 0.75rem;
+    background: var(--black);
+    height: 3rem;
+    color: var(--white);
+    border: none;
+    padding: 0.75rem 1rem;
     font-size: var(--twenty);
     font-weight: 500;
     border-radius: 12px;
-    cursor: pointer;
     transition: all 0.3s ease;
     outline: none;
 }

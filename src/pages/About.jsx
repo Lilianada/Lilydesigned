@@ -6,6 +6,7 @@ export default function About() {
     <main className="mainWrapper">
         <Header />
         <AboutHero />
+        
     </main>
   );
 }

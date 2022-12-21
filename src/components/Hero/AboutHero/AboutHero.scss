@@ -42,5 +42,15 @@
             font-size: var(--twenty);
             line-height: 1.25rem;
         }
+
+        .buttonWrap{
+            display: flex;
+            justify-content: center;
+            margin-top: 1rem;
+
+            .btnPrimary{
+                margin-right: 1rem;
+            }
+        }
     }
 }
