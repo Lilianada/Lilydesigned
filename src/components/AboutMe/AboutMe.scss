@@ -1,0 +1,31 @@
+.aboutSection{
+    display: grid;
+    place-items: center;
+    margin: 5rem auto 0;
+    justify-content: center;
+    text-align: center;
+    width: 90%;
+
+    @media screen and (min-width: 768px){
+        width: 34.5rem;
+    }
+
+    .title{
+        font-family: var(--font-text);
+        font-size: var(--thirtyEight);
+        font-weight: 600;
+        line-height: 2rem;
+        text-align: center;
+        color: var(--black);
+        margin-top: 1rem;
+    }
+
+    .aboutDescription{
+        .text{
+            margin-top: 1rem;
+            font-size: var(--twenty);
+            line-height: 2rem;
+            text-align: left;
+        }
+    }
+}
