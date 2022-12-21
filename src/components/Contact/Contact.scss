@@ -1,0 +1,14 @@
+.contactSection{
+    display: grid;
+    place-items: center;
+    margin: 5rem auto 0;
+    justify-content: center;
+    text-align: center;
+    width: 90%;
+
+    @media screen and (min-width: 768px){
+        width: 34.5rem;
+    }
+    
+
+}

@@ -1,6 +1,7 @@
 import React from "react";
 import { CiLinkedin } from "react-icons/ci";
 import { SiGithub, SiInstagram } from "react-icons/si";
+import "./Contact.scss";
 
 export default function Contact() {
   return (
