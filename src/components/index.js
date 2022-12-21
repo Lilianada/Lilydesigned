@@ -1,3 +1,5 @@
+export { default as AboutHero } from "./Hero/AboutHero/AboutHero";
+
 export { default as ErrorBoundary } from "./ErrorBoundary/ErrorBoundary";
 export { default as Home } from "../pages/Home";
 export { default as Journal } from "../pages/Journal";
