@@ -40,7 +40,7 @@
 
 //   return (
 //     <section className="reviewsSection">
-//         <h3 className="title">Reviews</h3>
+//         <h3 className="title">Testimonials</h3>
 
 //         <div className="reviewsSlider">
 //         <AnimatePresence initial={false} custom={direction}>
