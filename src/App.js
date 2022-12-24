@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import { About, Portfolio, Journal, Header  } from "./components";
+import { About, Portfolio, Journal, Header, Login, Create, Edit  } from "./components";
 
 function App() {
   return (
@@ -11,7 +11,10 @@ function App() {
           <Routes>
             <Route path="/" element={<About/>} />
             <Route path="/portfolio" element={<Portfolio/>} />
-            <Route path="/journal" element={<Journal/>} />
+            <Route path="/journals" element={<Journal/>} />
+            <Route path="/login" element={<Login/>} />
+            <Route path="/createpost" element={<Create/>} />
+            <Route path="/editpost" element={<Edit/>} />
           </Routes>
         </Router>
       </main>

@@ -1,5 +1,8 @@
+export { default as Login } from "../pages/Login";
+export { default as Create } from "./Journals/Create";
+export { default as Edit } from "./Journals/Edit";
+export { default as Show } from "./Journals/Show";
 export { default as Contact } from "./Contact/Contact";
-
 export { default as Reviews } from "./Reviews/Reviews";
 export { default as AboutMe } from "./AboutMe/AboutMe";
 export { default as AboutHero } from "./Hero/AboutHero/AboutHero";
