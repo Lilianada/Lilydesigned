@@ -1,16 +1,19 @@
 import React from "react";
-import { Route, Routes } from "react-router-dom";
-import { About, Portfolio, Journal  } from "./components";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { About, Portfolio, Journal, Header  } from "./components";
 
 function App() {
   return (
     <div className="App">
       <main>
-        <Routes>
-          <Route path="/" element={<About/>} />
-          <Route path="/portfolio" element={<Portfolio/>} />
-          <Route path="/journal" element={<Journal/>} />
-        </Routes>
+        <Header />
+        <Router>
+          <Routes>
+            <Route path="/" element={<About/>} />
+            <Route path="/portfolio" element={<Portfolio/>} />
+            <Route path="/journal" element={<Journal/>} />
+          </Routes>
+        </Router>
       </main>
     </div>
   );

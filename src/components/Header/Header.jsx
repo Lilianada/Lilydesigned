@@ -14,7 +14,7 @@ export default function Header() {
     <ErrorBoundary>
         <header className="header">
             <nav className="navItems">
-              <Link to="/" className={active === 1 ? "activeLogo" : "LogoName"} onClick={() => isActive(1)} >
+              <Link to="/" className={active === 1 ? "activeLogo" : "logoName"} onClick={() => isActive(1)} >
                 ThingsbyLilian
               </Link>
 
