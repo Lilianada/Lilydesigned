@@ -51,11 +51,19 @@
 
             .btnPrimary{
                 margin-right: 2rem;
-                width: 13rem;
+                width: 50%;
+
+                @media screen and (min-width: 768px){
+                    width: 13rem;
+                }
             }
 
             .btnSecondary{
-                width: 13rem;
+                width: 50%;
+
+                @media screen and (min-width: 768px){
+                    width: 13rem;
+                }
             }
         }
     }

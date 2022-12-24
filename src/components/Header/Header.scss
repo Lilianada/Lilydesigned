@@ -2,6 +2,7 @@
     display: none;
 
     @media screen and (min-width: 768px) {
+        display: block;
         padding: 2rem 2rem;
     }
 
@@ -68,44 +69,53 @@
         align-items: center;
         border: 1.5px solid var(--white);
         border-radius: 2rem;
-        // padding: 0.45rem 1rem;
-        // width: 7.5rem;
     }
 
     .navList{
         display: none;
         width: 100vw;
-        height: 25vh;
-        padding: 1rem 0;
+        height: 30vh;
         position: absolute;
         z-index: 1;
-        background: var(--pink);
         top: 5rem;
         right: 0;
-        justify-content: center;
+        background: var(--pink);
         border-radius: 2px;
-        align-items: center;
         animation: animate .3s ;
 
         .navItem{
-            padding: .75rem 1rem;
-            display: inline-flex;
-            align-items: center;
-
-            &:hover{
-                background-color: var(--hotPink);
-                color: var(--white);
-            }
+            padding:  1rem 0;
+            display: grid;
+            place-items: center;
+            width: 100%;
 
             .navLink{ 
                 font-size: var(--eighteen);
+                font-weight: 600;
+                color: var(--black);
+                width: 100%;
+                display: grid;
+                place-items: center;
+                padding: 1rem;
+            }
+
+            .activeLink{
+                font-size: var(--eighteen);
+                font-weight: 600;
+                background-color: var(--hotPink);
+                color: var(--white);
+                width: 100%;
+                display: grid;
+                place-items: center;
+                padding: 1rem;
             }
         }
     }
 
     .show{
-        display: flex;
-        flex-direction: column;
+        display: grid;
+        grid-template-columns: 100%;
+        place-items: center;
     }
 
     @keyframes animate {
