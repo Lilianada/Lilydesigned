@@ -286,84 +286,37 @@ button {
 
 /*-----------------LOGIN--------------------*/
 .login{
-    display: grid;
-    height: 100vh;
-    grid-template-columns: 100%;
+    display: flex;
+    flex-direction: column;
     overflow-x: hidden;
     overflow-y: hidden;
+    margin: 1rem;
+    padding: 1rem;
     background-color: var(--white);
 
     .formhead{
         display: grid;
         place-items: center;
         margin-top: 3rem;
+        margin-bottom: 2rem;
 
         .headText{
             font-family: var(--font-text);
-            font-size: var(--twentyTwo);
+            font-size: var(--thirtyTwo);
             font-weight: 600;
             text-align: center;
-            margin-top: .75rem;
         }
     }
 
-    .loginForm{
-        margin: auto;
-        padding: 1rem;
-
-        .formWrap{
-            margin-bottom: 1rem;
-            display: flex;
-            flex-direction: column;
-            position: relative;
-
-            .formLabel{
-                font-size: var(--sixteen);
-                color: var(--black);
-                margin-bottom: .75rem;
-                line-height: 1.25rem;
-            }
-
-            .formInput{
-                height: 4rem;
-                width: 26.625rem;
-                border: 1px solid #B8B8B8;
-                border-radius: 6px;   
-                color: var(--black);
-                font-size: var(--sixteen);   
-                padding: .5rem;  
-                outline: none;
-                position: relative;
-                
-                &::placeholder{
-                    font-size: var(--sixteen);
-                    color: var(--black);
-                }
-
-            }
-
-            .showBtn{
-                position: absolute;
-                top: 3.45rem;
-                right: 1rem;
-                background: none;
-                outline: none;
-                border: none;
-                color: var(--black);
-                font-size: var(--sixteen);
-            }
-        }
-
-        .submitBtn{
-            height: 4rem;
-            width: 26.625rem;
-            border: none;
-            border-radius: 6px;
-            background: var(--black);
-            color: var(--white);
-            font-size: var(--sixteen);
-            font-weight: 500;
-            outline: none;
-        }
+    .submitBtn{
+        height: 4rem;
+        width: 100%;
+        border: none;
+        border-radius: 6px;
+        background: var(--black);
+        color: var(--white);
+        font-size: var(--sixteen);
+        font-weight: 500;
+        outline: none;
     }
 }

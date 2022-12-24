@@ -1,37 +1,19 @@
 import React from "react";
-
+import {auth, provider} from '../firebase';
+import { signInWithPopup } from "firebase/auth";
 export default function Login() {
-  const [passwordShown, setPasswordShown] = React.useState(false);
-  const isShow = (e) => {
-    e.preventDefault();
-    setPasswordShown(!passwordShown);
+  const signInWithGoogle = () => {
+    signInWithPopup(auth, provider).then((result) => {
+      
+    })
   }
+
   return(
-    <main className="login">
+    <section className="login">
       <header className="formhead">
-        <h3 className="headText">ThingsbyLilian</h3>
+        <h3 className="headText">Sign in with Google</h3>
       </header>
-      <form action="" className="loginForm">
-        <div className="formWrap">
-          <label htmlFor="Email" className="formLabel">
-            Email address*
-          </label>
-          <input type="email" className="formInput" required />
-        </div>
-        <div className="formWrap">
-          <label htmlFor="Email" className="formLabel">
-            Password*
-          </label>
-          <input
-            type={passwordShown ? "text" : "password"}
-            className="formInput"
-            placeholder="xxxxxxxxx"
-            required
-          />
-          <button className="showBtn" onClick={isShow}> Show</button>
-        </div>
-        <button className="submitBtn">Login</button>
-      </form>
-    </main>
+      <button className="submitBtn">Sign In</button>
+    </section>
   );
 }
