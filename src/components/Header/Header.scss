@@ -29,10 +29,8 @@
         .navList {
             display: flex;
 
-            .navItem {
-                &:first-child {
-                    margin-right: 1rem;
-                }
+            .navItem {                
+                margin-right: 1rem;
 
                 .navLink {
                     font-family: var(--font-text);

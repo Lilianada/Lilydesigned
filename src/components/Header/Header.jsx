@@ -29,6 +29,16 @@ export default function Header() {
                     Journal
                   </Link>
                 </li>
+                <li className="navItem" onClick={() => isActive(4)}>
+                  <Link to="/login" className={active === 4 ? "activeLink" : "navLink"}>
+                    Login
+                  </Link>
+                </li>
+                <li className="navItem" onClick={() => isActive (5)}>
+                  <Link to="/createpost" className={active === 5 ? "activeLink" : "navLink"}>
+                    Create
+                  </Link>
+                </li>
               </ul>
             </nav>
         </header>

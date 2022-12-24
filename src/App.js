@@ -6,8 +6,8 @@ function App() {
   return (
     <div className="App">
       <main>
-        <Header />
         <Router>
+          <Header />
           <Routes>
             <Route path="/" element={<About/>} />
             <Route path="/portfolio" element={<Portfolio/>} />
