@@ -9,7 +9,7 @@ export default function AboutMe() {
         </h3>
         <div className="aboutDescription">
             <p className="text">
-            Designsbylilian is a portfolio website that shows the hand-works of a B.Ed degree holder who is currently a Frontend Developer aspiring to further her studies in industrial or product design. Hic maxime laborum ratione saepe quaerat cum minus odit iusto similique officia voluptas sit dicta facilis, expedita neque dolore iste odio quas reprehenderit nulla!
+              Designsbylilian is a portfolio website that shows the hand-works of a B.Ed degree holder who is currently a Frontend Developer aspiring to further her studies in industrial or product design.
             </p>
         </div>
     </section>

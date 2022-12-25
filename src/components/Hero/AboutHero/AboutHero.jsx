@@ -22,7 +22,6 @@ export default function AboutHero() {
           <button className="btnSecondary">Cover Letter</button>
         </div>
       </div>
-      <HiArrowLongDown className="HiArrowLongDown" size={20}/>
     </section>
   );
 }

@@ -1,11 +1,14 @@
 footer{
-    margin-top: 2rem;
+    margin-top: 1rem;
     margin-bottom: 2rem;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
     .footerText{
         font-size: var(--twenty);
-        line-height: 1.5rem;
+        margin-top: 1rem;
         color: var(--hotPink);
+        margin-left: 3rem;
     }
 }
