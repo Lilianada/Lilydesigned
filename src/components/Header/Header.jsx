@@ -46,14 +46,6 @@ export default function Header({ isAuth, signUserOut }) {
                 Journal
               </Link>
             </li>
-            <li className="navItem" onClick={() => isActive(5)}>
-              <Link
-                to="/createpost"
-                className={active === 5 ? "activeLink" : "navLink"}
-              >
-                Create
-              </Link>
-            </li>
             {!isAuth ? (
               <li className="navItem" onClick={() => isActive(4)}>
                 <Link
@@ -64,14 +56,30 @@ export default function Header({ isAuth, signUserOut }) {
                 </Link>
               </li>
             ) : (
-              <li className="navItem" onClick={() => {isActive(4); signUserOut();}}>
-                <Link
-                  to="/login"
-                  className={active === 4 ? "activeLink" : "navLink"}
+              <>
+                <li className="navItem" onClick={() => isActive(5)}>
+                  <Link
+                    to="/createpost"
+                    className={active === 5 ? "activeLink" : "navLink"}
+                  >
+                    Create
+                  </Link>
+                </li>
+                <li
+                  className="navItem"
+                  onClick={() => {
+                    isActive(4);
+                    signUserOut();
+                  }}
                 >
-                  Logout
-                </Link>
-              </li>
+                  <Link
+                    to="/login"
+                    className={active === 4 ? "activeLink" : "navLink"}
+                  >
+                    Logout
+                  </Link>
+                </li>
+              </>
             )}
           </ul>
         </nav>
@@ -118,14 +126,6 @@ export default function Header({ isAuth, signUserOut }) {
                 Journal
               </Link>
             </li>
-            <li className="navItem" onClick={() => isActive(5)}>
-              <Link
-                to="/createpost"
-                className={active === 5 ? "activeLink" : "navLink"}
-              >
-                Create
-              </Link>
-            </li>
             {!isAuth ? (
               <li className="navItem" onClick={() => isActive(4)}>
                 <Link
@@ -136,14 +136,30 @@ export default function Header({ isAuth, signUserOut }) {
                 </Link>
               </li>
             ) : (
-              <li className="navItem" onClick={() => {isActive(4); signUserOut();}}>
-                <Link
-                  to="/login"
-                  className={active === 4 ? "activeLink" : "navLink"}
+              <>
+                <li className="navItem" onClick={() => isActive(5)}>
+                  <Link
+                    to="/createpost"
+                    className={active === 5 ? "activeLink" : "navLink"}
+                  >
+                    Create
+                  </Link>
+                </li>
+                <li
+                  className="navItem"
+                  onClick={() => {
+                    isActive(4);
+                    signUserOut();
+                  }}
                 >
-                  Logout
-                </Link>
-              </li>
+                  <Link
+                    to="/login"
+                    className={active === 4 ? "activeLink" : "navLink"}
+                  >
+                    Logout
+                  </Link>
+                </li>
+              </>
             )}
           </ul>
         </nav>

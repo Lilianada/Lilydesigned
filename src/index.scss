@@ -189,39 +189,9 @@ button {
     transition: all 0.3s;
 
     &:hover {
-        transform: scale(0.9, 0.9);
+        transform: scale(0.9, 1.2);
     }
 }
-
-// .errorMsg {
-//     background: rgba(255, 61, 0, 0.15);
-//     border-radius: 12px;
-//     color: #ff3d00;
-//     padding: 0.5rem 1rem;
-//     font-size: var(--twenty);
-//     margin-top: 0.5rem;
-//     display: none;
-// }
-
-// .successMsg {
-//     background: #7ef1b6;
-//     border-radius: 12px;
-//     color: #0f9851;
-//     padding: 0.5rem 1rem;
-//     font-size: var(--twenty);
-//     margin-top: 0.5rem;
-//     display: none;
-// }
-
-// .activeBtn {
-//     background-color: var(--black);
-//     color: var(--white);
-// }
-
-// .inactiveBtn {
-//     background-color: #BEBEBE;
-//     color: var(--white);
-// }
 
 .btnPrimary {
     background: var(--litePink);
