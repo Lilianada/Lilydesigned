@@ -40,10 +40,10 @@ export default function Header({ isAuth, signUserOut }) {
             </li>
             <li className="navItem" onClick={() => isActive(3)}>
               <Link
-                to="/journal"
+                to="/journals"
                 className={active === 3 ? "activeLink" : "navLink"}
               >
-                Journal
+                Journals
               </Link>
             </li>
             {!isAuth ? (
@@ -120,10 +120,10 @@ export default function Header({ isAuth, signUserOut }) {
             </li>
             <li className="navItem" onClick={() => isActive(3)}>
               <Link
-                to="/journal"
+                to="/journals"
                 className={active === 3 ? "activeLink" : "navLink"}
               >
-                Journal
+                Journals
               </Link>
             </li>
             {!isAuth ? (

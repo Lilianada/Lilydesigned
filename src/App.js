@@ -25,7 +25,7 @@ function App() {
             <Route path="/portfolio" element={<Portfolio/>} />
             <Route path="/journals" element={<Journal/>} />
             <Route path="/login" element={<Login setIsAuth={setIsAuth} />} />
-            <Route path="/createpost" element={<Create/>} />
+            <Route path="/createpost" element={<Create isAuth={isAuth} />} />
             <Route path="/editpost" element={<Edit/>} />
           </Routes>
         </Router>

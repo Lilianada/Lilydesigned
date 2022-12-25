@@ -1,10 +1,10 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { addDoc, collection } from "firebase/firestore";
 import { auth, db } from "../../firebase";
 import { useNavigate } from "react-router-dom";
 import ErrorBoundary from "../ErrorBoundary/ErrorBoundary";
 
-export default function Create() {
+export default function Create({ isAuth }) {
   const [title, setTitle] = useState("");
   const [textBody, setTextBody] = useState("");
 
@@ -22,6 +22,12 @@ export default function Create() {
     });
     navigate("/");
   };
+
+  useEffect (() => {
+    if (!isAuth) {
+      navigate("/login");
+    }
+  }, [])
 
   return (
     <ErrorBoundary>
