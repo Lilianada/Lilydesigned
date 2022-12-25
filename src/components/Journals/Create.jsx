@@ -9,7 +9,7 @@ export default function Create() {
 
   const postCollectionRef = collection(db, "journals");
   let navigate = useNavigate();
-  
+
   const createPost = async () => {
     await addDoc(postCollectionRef, { 
       title, 

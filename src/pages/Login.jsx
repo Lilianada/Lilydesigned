@@ -15,7 +15,7 @@ export default function Login({setIsAuth}) {
   return(
     <section className="login">
       <header className="formhead">
-        <h3 className="headText">Sign in with Google</h3>
+        <h3 className="headText">Sign in with Google to continue</h3>
       </header>
       <button className="submitBtn" onClick={signInWithGoogle}>Sign In</button>
     </section>

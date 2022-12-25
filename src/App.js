@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Navigate, Route, Routes } from "react-router-d
 import { About, Portfolio, Journal, Header, Login, Create, Edit  } from "./components";
 import { signOut } from "firebase/auth";
 import { auth } from "./firebase";
+
 function App() {
   const [isAuth, setIsAuth] = useState(false);
 
