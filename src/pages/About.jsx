@@ -1,5 +1,5 @@
 import React from "react";
-import { AboutHero, AboutMe, Contact, Header, Reviews } from "../components";
+import { AboutHero, AboutMe, Contact, Footer, Header, Reviews } from "../components";
 
 export default function About() {
   return (
@@ -8,6 +8,7 @@ export default function About() {
         <AboutMe/>
         {/* <Reviews /> */}
         <Contact/>
+        <Footer />
     </main>
   );
 }

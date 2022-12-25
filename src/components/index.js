@@ -1,3 +1,4 @@
+export { default as Footer } from "./Footer/Footer";
 export { default as Login } from "../pages/Login";
 export { default as Create } from "./Journals/Create";
 export { default as Edit } from "./Journals/Edit";

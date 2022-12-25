@@ -3,7 +3,8 @@ import { Header } from "../components";
 
 export default function Journal() {
   return (
-    <main className="mainWrapper">
-    </main>
+    <section className="mainWrapper">
+      
+    </section>
   );
 }

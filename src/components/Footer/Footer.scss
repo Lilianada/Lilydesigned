@@ -1,0 +1,11 @@
+footer{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+
+    .footerText{
+        font-size: var(--twenty);
+        line-height: 1.5rem;
+        color: var(--hotPink);
+    }
+}

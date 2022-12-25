@@ -13,9 +13,9 @@ export default function Contact() {
         </p>
         <a href="mailto:lilianokeke.ca@gmail.com">Lilianokeke.ca@gmail.com</a>
         <div className="socialLinks">
-            <CiLinkedin />
-            <SiGithub/>
-            <SiInstagram />
+            <CiLinkedin size={24} />
+            <SiGithub size={24} />
+            <SiInstagram size={24} />
         </div>
     </section>
   );
