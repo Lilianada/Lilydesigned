@@ -4,7 +4,7 @@ import { FiMenu } from "react-icons/fi";
 import { ErrorBoundary } from "../../components";
 import "./Header.scss";
 
-export default function Header({isAuth}) {
+export default function Header({ isAuth, signUserOut }) {
   const [active, setActive] = useState(1);
 
   const isActive = (index) => {
@@ -13,9 +13,9 @@ export default function Header({isAuth}) {
 
   const [toggle, setToggle] = useState(false);
 
-    const handleToggle = () => {
-        setToggle(!toggle);
-    }
+  const handleToggle = () => {
+    setToggle(!toggle);
+  };
 
   return (
     <ErrorBoundary>
@@ -54,16 +54,25 @@ export default function Header({isAuth}) {
                 Create
               </Link>
             </li>
-            {!isAuth && 
-            <li className="navItem" onClick={() => isActive(4)}>
-            <Link
-              to="/login"
-              className={active === 4 ? "activeLink" : "navLink"}
-            >
-              Login
-            </Link>
-          </li>
-          }
+            {!isAuth ? (
+              <li className="navItem" onClick={() => isActive(4)}>
+                <Link
+                  to="/login"
+                  className={active === 4 ? "activeLink" : "navLink"}
+                >
+                  Login
+                </Link>
+              </li>
+            ) : (
+              <li className="navItem" onClick={() => {isActive(4); signUserOut();}}>
+                <Link
+                  to="/login"
+                  className={active === 4 ? "activeLink" : "navLink"}
+                >
+                  Logout
+                </Link>
+              </li>
+            )}
           </ul>
         </nav>
       </header>
@@ -89,10 +98,7 @@ export default function Header({isAuth}) {
 
           <ul className={`navList ${toggle ? "show" : ""}`}>
             <li className="navItem" onClick={() => isActive(1)}>
-              <Link
-                to="/"
-                className={active === 1 ? "activeLink" : "navLink"}
-              >
+              <Link to="/" className={active === 1 ? "activeLink" : "navLink"}>
                 Home
               </Link>
             </li>
@@ -120,16 +126,25 @@ export default function Header({isAuth}) {
                 Create
               </Link>
             </li>
-            {!isAuth && 
-            <li className="navItem" onClick={() => isActive(4)}>
-            <Link
-              to="/login"
-              className={active === 4 ? "activeLink" : "navLink"}
-            >
-              Login
-            </Link>
-          </li>
-          }
+            {!isAuth ? (
+              <li className="navItem" onClick={() => isActive(4)}>
+                <Link
+                  to="/login"
+                  className={active === 4 ? "activeLink" : "navLink"}
+                >
+                  Login
+                </Link>
+              </li>
+            ) : (
+              <li className="navItem" onClick={() => {isActive(4); signUserOut();}}>
+                <Link
+                  to="/login"
+                  className={active === 4 ? "activeLink" : "navLink"}
+                >
+                  Logout
+                </Link>
+              </li>
+            )}
           </ul>
         </nav>
       </header>
