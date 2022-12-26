@@ -1,5 +1,5 @@
 import React from "react";
-import { AboutHero, AboutMe, Contact, Footer, Header, Reviews } from "../components";
+import { AboutHero, AboutMe, Contact, Footer, Reviews } from "../components";
 
 export default function About() {
   return (

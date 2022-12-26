@@ -69,11 +69,13 @@ const [[page, direction], setPage] = useState([0, 0]);
                   }
                 }}
             >
-
+                <p className="text">
+                    {ReviewsList[dataIndex].review}
+                </p>
             </motion.div>
         </AnimatePresence>
         <div className="next" onClick={() => paginate(1)}>
-              <FiChevronRight size={24} />
+            <FiChevronRight size={24} />
             </div>
             <div className="prev" onClick={() => paginate(-1)}>
               <FiChevronLeft size={24} />
