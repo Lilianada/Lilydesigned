@@ -1,9 +1,14 @@
 footer{
     margin-top: 1rem;
-    margin-bottom: 2rem;
+    padding: 0rem 2rem 1rem;
     display: flex;
     justify-content: center;
     align-items: center;
+        
+    background: var(--litePink);
+    border: 1px solid var(--hotPink);
+    border-left: 0;
+    border-right: 0;
 
     .footerText{
         font-size: var(--twenty);
