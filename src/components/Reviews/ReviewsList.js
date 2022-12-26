@@ -1,10 +1,5 @@
 export const ReviewsList = [
     {
-        reviewersName: "Warren Chanelis",
-        reviewersCountry: "United States",
-        review: "Wow, she was great. So patient and knowledgeable. Definitely recommended!"
-    },
-    {
         reviewersName: "Gail Johnson",
         reviewersCountry: "United States",
         review:"Exception, everyone should hire Lilian - she is a Superwoman. So glad that I found her after the first Fiverr person didn't do the best job."

@@ -256,6 +256,12 @@ button {
     line-height: 1.5rem;
 }
 
+.boldText {
+    font-size: var(--twenty);
+    font-weight: 600;
+    line-height: 1.5rem;
+}
+
 /*-----------------LOGIN--------------------*/
 .login {
     display: flex;

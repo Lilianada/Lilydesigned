@@ -53,8 +53,8 @@ export default function Reviews() {
             animate="center"
             exit="exit"
             transition={{
-              x: { type: "linear", stiffness: 80, damping: 20 },
-              opacity: { duration: 0.5 },
+              x: { type: "spring", stiffness: 300, damping: 30 },
+              opacity: { duration: 0.2 },
             }}
             drag="x"
             dragConstraints={{ left: 0, right: 0 }}
@@ -71,16 +71,25 @@ export default function Reviews() {
           >
             <div className="reviewWrap">
               <div className="reviewList">
-                <p className="text">{ReviewsList[dataIndex].review}</p>
+                <p className="text">"{ReviewsList[dataIndex].review}"</p>
+                <p
+                  className="boldText"
+                  style={{
+                    textAlign: "right",
+                  }}
+                >
+                  - {ReviewsList[dataIndex].reviewersName},{" "}
+                  {ReviewsList[dataIndex].reviewersCountry}.
+                </p>
               </div>
             </div>
           </motion.div>
         </AnimatePresence>
         <div className="next" onClick={() => paginate(1)}>
-          <FiChevronRight size={24} />
+          <FiChevronRight size={24} stroke="white" />
         </div>
         <div className="prev" onClick={() => paginate(-1)}>
-          <FiChevronLeft size={24} />
+          <FiChevronLeft size={24} stroke="white" />
         </div>
       </div>
     </section>
