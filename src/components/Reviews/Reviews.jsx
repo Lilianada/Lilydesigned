@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { FiChevronRight, FiChevronLeft } from "react-icons/fi";
 import { wrap } from "popmotion";
+import {ReviewsList} from "./ReviewsList";
 import "./Reviews.scss";
 
 const variants = {
@@ -32,7 +33,7 @@ const swipePower = (offset, velocity) => {
 
 export default function Reviews() {
 const [[page, direction], setPage] = useState([0, 0]);
-  const dataIndex = wrap(0, ListingData.length, page);
+  const dataIndex = wrap(0, ReviewsList.length, page);
 
   const paginate = (newDirection) => {
     setPage([page + newDirection, newDirection]);
