@@ -1,41 +1,56 @@
-.reviewsSection{
+.reviewsSection {
     display: grid;
     place-items: center;
     margin: 5rem auto 0;
     justify-content: center;
     text-align: center;
     width: 90%;
+    position: relative;
 
-    @media screen and (min-width: 768px){
+    @media screen and (min-width: 768px) {
         width: 34.5rem;
     }
-    
-    .reviewsSlider{
+
+    .reviewsSlider {
         display: flex;
         width: 90%;
         margin: auto;
 
-        .next,
-            .prev {
-                top: calc(50%);
-                position: absolute;
-                width: 30px;
-                height: 30px;
+        .reviewWrap {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            width: 100%;
+
+            .reviewList {
                 display: flex;
-                justify-content: center;
-                align-items: center;
-                user-select: none;
-                cursor: pointer;
-                z-index: 2;
+                justify-content: space-evenly;
+                gap: 1rem;
+                width: 100%;
+                margin: auto;
             }
+        }
 
-            .next {
-                right: 0px;
-            }
+        .next,
+        .prev {
+            top: calc(50%);
+            position: absolute;
+            width: 30px;
+            height: 30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            user-select: none;
+            cursor: pointer;
+            z-index: 2;
+        }
 
-            .prev {
-                left: -3px;
-            }
+        .next {
+            right: 0px;
+        }
 
+        .prev {
+            left: -3px;
+        }
     }
 }
