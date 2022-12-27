@@ -33,7 +33,7 @@ export default function Header({ isAuth, signUserOut }) {
               height="32"
               viewBox="0 0 32 32"
               fill="none"
-              style={{marginRight: ".5rem"}}
+              style={{ marginRight: ".5rem" }}
             >
               <path
                 fillRule="evenodd"
@@ -58,8 +58,15 @@ export default function Header({ isAuth, signUserOut }) {
                 Portfolio
               </Link>
             </motion.li>
-            <motion.li className="navItem" onClick={() => isActive(4)} whileHover={{ scale: 0.9 }}>
-              <Link to="/contact" className={active === 4 ? "activeLink" : "navLink"}>
+            <motion.li
+              className="navItem"
+              onClick={() => isActive(4)}
+              whileHover={{ scale: 0.9 }}
+            >
+              <Link
+                to="/contact"
+                className={active === 4 ? "activeLink" : "navLink"}
+              >
                 Contact
               </Link>
             </motion.li>
@@ -87,8 +94,11 @@ export default function Header({ isAuth, signUserOut }) {
           </div>
 
           <ul className={`navList ${toggle ? "show" : ""}`}>
-            
-            <motion.li className="navItem" onClick={() => isActive(2)} whileHover={{ scale: 0.9 }}>
+            <motion.li
+              className="navItem"
+              onClick={() => isActive(2)}
+              whileHover={{ scale: 0.9 }}
+            >
               <Link
                 to="/portfolio"
                 className={active === 2 ? "activeLink" : "navLink"}
@@ -96,8 +106,15 @@ export default function Header({ isAuth, signUserOut }) {
                 Portfolio
               </Link>
             </motion.li>
-            <motion.li className="navItem" onClick={() => isActive(4)} whileHover={{ scale: 0.9 }}>
-              <Link to="/contact" className={active === 4 ? "activeLink" : "navLink"}>
+            <motion.li
+              className="navItem"
+              onClick={() => isActive(4)}
+              whileHover={{ scale: 0.9 }}
+            >
+              <Link
+                to="/contact"
+                className={active === 4 ? "activeLink" : "navLink"}
+              >
                 Contact
               </Link>
             </motion.li>
