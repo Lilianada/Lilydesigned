@@ -32,8 +32,12 @@
         margin: 4rem auto;
         gap: 3rem;
         width: 70%;
+        margin-bottom: 2rem;
 
         .project{
+            display: flex;  
+            flex-direction: column;
+            
             .projectName{
                 text-transform: uppercase;
                 font-size: var(--fourteen);
