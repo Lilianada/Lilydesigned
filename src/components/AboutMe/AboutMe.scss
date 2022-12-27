@@ -11,11 +11,12 @@
     }
 
     .aboutDescription{
+        margin-top: 1rem;
         .text{
             margin-top: 1rem;
             font-size: var(--twenty);
             line-height: 2rem;
-            text-align: center;
+            text-align: left;
         }
     }
 }

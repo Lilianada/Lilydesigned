@@ -26,7 +26,10 @@ export default function Header({ isAuth, signUserOut }) {
             className={active === 1 ? "activeLogo" : "logoName"}
             onClick={() => isActive(1)}
           >
-            ThingsbyLilian
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M0 16C10.1699 16 16 10.1699 16 0C16 10.1699 21.8301 16 32 16C21.8301 16 16 21.8301 16 32C16 21.8301 10.1699 16 0 16Z" fill="#fff"/>
+            </svg>
+            ThingsbyLily
           </Link>
 
           <ul className="navList">

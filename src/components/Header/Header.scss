@@ -20,17 +20,23 @@
         .logoName {
             font-family: var(--font-text);
             font-size: 1.15rem;
-            font-weight: 500;
+            font-weight: 600;
             line-height: 1.5rem;
             color: var(--white);
+
+            display: flex;
+            align-items: center;
         }
 
         .activeLogo {
             font-family: var(--font-text);
             font-size: 1.15rem;
-            font-weight: 500;
+            font-weight: 600;
             line-height: 1.5rem;
             color: var(--litePink);
+
+            display: flex;
+            align-items: center;
         }
 
         .navList {
