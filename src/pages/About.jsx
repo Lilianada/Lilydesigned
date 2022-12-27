@@ -5,10 +5,9 @@ export default function About() {
   return (
     <main className="mainWrapper">
         <AboutHero />
-        <AboutMe/>
+        {/* <AboutMe/> */}
         {/* <Reviews /> */}
-        <Contact/>
-        <Footer />
+        {/* <Contact/> */}
     </main>
   );
 }

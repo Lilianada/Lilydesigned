@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { BrowserRouter as Router, Navigate, Route, Routes } from "react-router-dom";
-import { About, Portfolio, Journal, Header, Login, Create, Edit  } from "./components";
+import { About, Portfolio, Journal, Header, Login, Create, Edit, Footer  } from "./components";
 import { signOut } from "firebase/auth";
 import { auth } from "./firebase";
 
@@ -17,7 +17,7 @@ function App() {
 
   return (
     <div className="App">
-      <main>
+      <main className="mainWrapper">
         <Router>
           <Header  isAuth={isAuth} signUserOut={signUserOut} />
           <Routes>
@@ -28,6 +28,7 @@ function App() {
             <Route path="/createpost" element={<Create isAuth={isAuth} />} />
             <Route path="/editpost" element={<Edit/>} />
           </Routes>
+          <Footer />
         </Router>
       </main>
     </div>

@@ -1,4 +1,5 @@
 import React from "react";
+import Pic from "../../assets/images/FullAvatar.jpeg";
 import "./AboutMe.scss";
 
 export default function AboutMe() {
@@ -8,6 +9,7 @@ export default function AboutMe() {
             About Me
         </h3>
         <div className="aboutDescription">
+            {/* <img src={Pic} alt="Full Avatar" /> */}
             <p className="text">
               ThingsbyLily is a portfolio website that shows the hand-works of a B.Ed degree holder who is currently a Frontend Developer aspiring to further her studies in industrial or product design.
               She enjoys the pursuit of craft, solving complex problems, and mentoring others.

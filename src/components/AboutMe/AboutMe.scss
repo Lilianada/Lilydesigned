@@ -12,11 +12,16 @@
 
     .aboutDescription{
         margin-top: 1rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
         .text{
             margin-top: 1rem;
-            font-size: var(--twenty);
+            font-size: var(--eighteen);
             line-height: 2rem;
             text-align: left;
+            
         }
     }
 }
