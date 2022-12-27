@@ -14,8 +14,7 @@ export default function AboutHero() {
           Hi - I'm Lilian, a Frontend developer for high impact organizations.
         </h3>
         <p className="text">
-          I am passionate about web technologies and creating user-friendly interfaces
-          that poses as a solution for different high-end problems.
+          I am mostly interested in bridging the gap between organizations, businesses and their users by creating user friendly UI components and bringing products to life. 
         </p>
         <div className="buttonWrap">
           <button className="btnPrimary">Curriculum Vitae</button>

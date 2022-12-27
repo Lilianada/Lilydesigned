@@ -2,7 +2,8 @@ import React from "react";
 import Pic1 from "../../assets/images/Journalsyourway.png";
 import Pic2 from "../../assets/images/coloringcultures.png";
 import Pic3 from "../../assets/images/C1oudnimi.png";
-import Pic4 from "../../assets/images/Web2.png";
+import Pic4 from "../../assets/images/BeBlended.png";
+import Pic5 from "../../assets/images/FreedomAction.png";
 import "./Work.scss";
 
 export default function Work() {
@@ -64,6 +65,20 @@ export default function Work() {
                 </div>
                 <div className="projectImage">
                     <img src={Pic4} alt="Project Screenshot" />
+                </div>
+            </div>
+            <div className="workWrap">
+                <div className="project">
+                    <p className="projectName">Freedom Action Now | 2022 </p>
+                    <p className="projectTitle">Understanding Business</p>
+                    <p className="projectDetails">
+                        Voter Education. Leadership Development.
+                        Community Organizing. Policy Advocacy.
+                    </p>
+                    <a className="btnPrimary" href="https://freedomactionnow.org/" target="_blank" >View Site</a>
+                </div>
+                <div className="projectImage">
+                    <img src={Pic5} alt="Project Screenshot" />
                 </div>
             </div>
         </div>
