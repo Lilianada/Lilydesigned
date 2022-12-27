@@ -1,5 +1,5 @@
 import React from "react";
-import Pic from "../../../assets/images/Placeholder.png";
+import Pic from "../../../assets/images/LilyAvatar.jpg";
 import {HiArrowLongDown} from "react-icons/hi2";
 import "./AboutHero.scss";
 
@@ -19,7 +19,7 @@ export default function AboutHero() {
         </p>
         <div className="buttonWrap">
           <button className="btnPrimary">Curriculum Vitae</button>
-          <button className="btnSecondary">Cover Letter</button>
+          {/* <button className="btnSecondary">Cover Letter</button> */}
         </div>
       </div>
     </section>

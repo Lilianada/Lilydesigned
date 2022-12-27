@@ -1,13 +1,13 @@
 .aboutHero{
     display: grid;
     place-items: center;
-    margin: 0 auto;
+    margin: 1rem auto;
     justify-content: center;
     text-align: center;
     width: 90%;
 
     @media screen and (min-width: 768px){
-        width: 34.5rem;
+        width: 35rem;
     }
 
     .profilePicture{
@@ -33,14 +33,15 @@
             font-weight: 600;
             line-height: 2rem;
             text-align: center;
-            color: var(--black);
-            margin-top: 1rem;
+            color: var(--white);
+            margin-top: 1.5rem;
         }
 
         .text{
             margin-top: 1rem;
             font-size: var(--twenty);
             line-height: 1.5rem;
+            color: var(--white);
         }
 
         .buttonWrap{
@@ -50,15 +51,6 @@
             margin-bottom: .75rem;
 
             .btnPrimary{
-                margin-right: 2rem;
-                width: 50%;
-
-                @media screen and (min-width: 768px){
-                    width: 13rem;
-                }
-            }
-
-            .btnSecondary{
                 width: 50%;
 
                 @media screen and (min-width: 768px){

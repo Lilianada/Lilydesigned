@@ -6,7 +6,7 @@ export default function About() {
     <main className="mainWrapper">
         <AboutHero />
         <AboutMe/>
-        <Reviews />
+        {/* <Reviews /> */}
         <Contact/>
         <Footer />
     </main>

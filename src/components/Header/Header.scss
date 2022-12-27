@@ -5,11 +5,11 @@
         display: block;
         padding: 1rem 2rem;
             
-        background: var(--litePink);
-        border: 1px solid var(--hotPink);
-        border-left: 0;
-        border-right: 0;
-        border-top: 0;
+        // background: var(--litePink);
+        // border: 1px solid var(--hotPink);
+        // border-left: 0;
+        // border-right: 0;
+        // border-top: 0;
     }
 
     .navItems {
@@ -22,7 +22,7 @@
             font-size: 1.15rem;
             font-weight: 500;
             line-height: 1.5rem;
-            color: var(--black);
+            color: var(--white);
         }
 
         .activeLogo {
@@ -30,7 +30,7 @@
             font-size: 1.15rem;
             font-weight: 500;
             line-height: 1.5rem;
-            color: var(--hotPink);
+            color: var(--litePink);
         }
 
         .navList {
@@ -44,7 +44,7 @@
                     font-size: 1rem;
                     font-weight: 500;
                     line-height: 1.5rem;
-                    color: var(--black);
+                    color: var(--white);
                 }
 
                 .activeLink {
@@ -52,7 +52,7 @@
                     font-size: 1rem;
                     font-weight: 500;
                     line-height: 1.5rem;
-                    color: var(--hotPink);
+                    color: var(--litePink);
                 }
             }
         }
@@ -80,7 +80,6 @@
     .navList{
         display: none;
         width: 100vw;
-        // height: 30vh;
         position: absolute;
         z-index: 1;
         top: 5rem;
@@ -90,7 +89,6 @@
         animation: animate .3s ;
 
         .navItem{
-            // padding:  1rem 0;
             display: grid;
             place-items: center;
             width: 100%;

@@ -1,19 +1,24 @@
 footer{
     margin-top: 1rem;
-    padding: 0rem 2rem 1rem;
+    padding: 1rem 2rem;
     display: flex;
     justify-content: center;
     align-items: center;
+    color: var(--white);
         
-    background: var(--litePink);
-    border: 1px solid var(--hotPink);
-    border-left: 0;
-    border-right: 0;
+    // background: var(--litePink);
+    // border: 1px solid var(--hotPink);
+    // border-left: 0;
+    // border-right: 0;
+
+    .text{
+        font-size: var(--sixteen);
+        margin-top: 0;
+    }
 
     .footerText{
-        font-size: var(--twenty);
-        margin-top: 1rem;
-        color: var(--hotPink);
-        margin-left: 3rem;
+        font-size: var(--sixteen);
+        color: var(--white);
+        margin-left: 5rem;
     }
 }
