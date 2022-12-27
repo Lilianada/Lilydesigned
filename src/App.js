@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import { Home, Portfolio, Journal, Header, Footer, Contact  } from "./components";
 
@@ -9,7 +9,7 @@ function App() {
         <Router>
           <Header />
           <Routes>
-            <Route path="/home" index element={<Home/>} />
+            <Route path="/" index element={<Home/>} />
             <Route path="/portfolio" element={<Portfolio/>} />
             <Route path="/journals" element={<Journal/>} />
             <Route path="/contact" element={<Contact/>} />

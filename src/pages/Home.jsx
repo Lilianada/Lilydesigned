@@ -1,10 +1,8 @@
 import React from "react";
 import { Hero } from "../components";
 
-export default function About() {
+export default function Home() {
   return (
-    <main className="mainWrapper">
         <Hero />
-    </main>
   );
 }
