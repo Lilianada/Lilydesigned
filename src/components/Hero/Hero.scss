@@ -1,12 +1,16 @@
 .aboutHero{
     display: flex;
     flex-direction: column;
-    margin: 5rem auto 3rem;
+    margin: 3rem auto;
     align-items: center;
     justify-content: flex-start;
     text-align: center;
     width: 90%;
-    height: calc(100vh - 18rem);
+    
+    @media screen and (min-height: 800px) {
+        margin: 4rem auto 3rem;
+        height: calc(100vh - 18rem);
+    }
     
     @media screen and (min-width: 768px){
         width: 35rem;
