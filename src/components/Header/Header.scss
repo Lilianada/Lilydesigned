@@ -26,6 +26,10 @@
 
             display: flex;
             align-items: center;
+
+            &:first-child{
+                margin-right: .75rem;
+            }
         }
 
         .activeLogo {
@@ -37,6 +41,10 @@
 
             display: flex;
             align-items: center;
+
+            &:first-child{
+                margin-right: .75rem;
+            }
         }
 
         .navList {
@@ -52,9 +60,9 @@
                     line-height: 1.5rem;
                     color: var(--white);
 
-                    &:hover {
-                        text-decoration: underline;
-                    }
+                    // &:hover {
+                    //     text-decoration: underline;
+                    // }
                 }
 
                 .activeLink {
