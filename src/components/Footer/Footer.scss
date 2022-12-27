@@ -5,11 +5,6 @@ footer{
     justify-content: center;
     align-items: center;
     color: var(--white);
-    // position: absolute;
-    // bottom: 0rem;
-    // transform: translateX(50%);
-    // right: 50%;
-    // width: 100%;
 
     .text{
         font-size: var(--sixteen);
@@ -17,10 +12,30 @@ footer{
         margin-top: 0;
     }
     
-    .footerText{
+    .footerLinks{
+        display: flex;
         font-size: var(--sixteen);
         font-weight: 500;
         color: var(--white);
-        margin-left: 5rem;
+
+        .footerLink{
+            padding: 1rem;
+            
+            @media screen and (min-width: 768px){
+                padding: 1rem 2rem;
+            }
+
+            .socialLink{
+                display: flex;
+                align-items: flex-end;
+    
+                &:hover{
+                    color: var(--litePink)
+                }
+    
+    
+            }
+        }
+        
     }
 }

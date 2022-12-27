@@ -1,5 +1,5 @@
 import React from "react";
-import Pic from "../../assets/images/FullAvatar.jpeg";
+// import Pic from "../../assets/images/FullAvatar.jpeg";
 import "./AboutMe.scss";
 
 export default function AboutMe() {

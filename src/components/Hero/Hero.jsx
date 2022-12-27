@@ -1,7 +1,7 @@
 import React from "react";
-import Pic from "../../../assets/images/LilyAvatar.jpg";
-import Resume from "../../../assets/images/LilianResume.pdf";
-import "./AboutHero.scss";
+import Pic from "../../../src/assets/images/LilyAvatar.jpg";
+import Resume from "../../../src/assets/images/LilianResume.pdf";
+import "./Hero.scss";
 
 export default function AboutHero() {
   return (
@@ -14,12 +14,14 @@ export default function AboutHero() {
           Hi - I'm Lilian, a Frontend developer for high impact organizations.
         </h3>
         <p className="text">
-          I am mostly interested in bridging the gap between organizations, businesses and their users by creating user friendly UI components and bringing products to life. 
+          I am mostly interested in bridging the gap between organizations,
+          businesses and their users by creating user friendly UI components and
+          bringing products to life.
         </p>
-        <div className="buttonWrap">
-          <a href={Resume} className="btnPrimary">Curriculum Vitae</a>
-        </div>
       </div>
+      <a href={Resume} download className="btnPrimary">
+        Curriculum Vitae
+      </a>
     </section>
   );
 }

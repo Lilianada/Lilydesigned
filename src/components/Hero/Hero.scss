@@ -1,11 +1,13 @@
 .aboutHero{
-    display: grid;
-    place-items: center;
-    margin: 1rem auto;
-    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin: 5rem auto 3rem;
+    align-items: center;
+    justify-content: flex-start;
     text-align: center;
     width: 90%;
-
+    height: calc(100vh - 18rem);
+    
     @media screen and (min-width: 768px){
         width: 35rem;
     }
@@ -45,20 +47,11 @@
             line-height: 1.5rem;
             color: var(--white);
         }
-
-        .buttonWrap{
-            display: flex;
-            justify-content: center;
-            margin-top: 1rem;
-            margin-bottom: .75rem;
-
-            .btnPrimary{
-                width: 50%;
-
-                @media screen and (min-width: 768px){
-                    width: 13rem;
-                }
-            }
-        }
+    }
+    .btnPrimary{
+        width: 13rem;
+        height: 3rem;
+        margin-top: 1rem;
+        margin-bottom: .75rem;
     }
 }

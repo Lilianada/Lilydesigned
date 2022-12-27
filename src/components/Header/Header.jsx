@@ -33,6 +33,7 @@ export default function Header({ isAuth, signUserOut }) {
               height="32"
               viewBox="0 0 32 32"
               fill="none"
+              style={{marginRight: ".5rem"}}
             >
               <path
                 fillRule="evenodd"
@@ -41,7 +42,7 @@ export default function Header({ isAuth, signUserOut }) {
                 fill="#fff"
               />
             </svg>
-            ThingsbyLily
+            LilyDesigned
           </Link>
 
           <ul className="navList">
@@ -57,50 +58,11 @@ export default function Header({ isAuth, signUserOut }) {
                 Portfolio
               </Link>
             </motion.li>
-            <motion.li className="navItem" onClick={() => isActive(3)} whileHover={{ scale: 0.9 }}>
-              <Link
-                to="/journals"
-                className={active === 3 ? "activeLink" : "navLink"}
-              >
-                Journals
+            <motion.li className="navItem" onClick={() => isActive(4)} whileHover={{ scale: 0.9 }}>
+              <Link to="/contact" className={active === 4 ? "activeLink" : "navLink"}>
+                Contact
               </Link>
             </motion.li>
-            {!isAuth ? (
-              <motion.li className="navItem" onClick={() => isActive(4)} whileHover={{ scale: 0.9 }}> 
-                <Link
-                  to="/login"
-                  className={active === 4 ? "activeLink" : "navLink"}
-                >
-                  Login
-                </Link>
-              </motion.li>
-            ) : (
-              <>
-                <motion.li className="navItem" onClick={() => isActive(5)} whileHover={{ scale: 0.9 }}>
-                  <Link
-                    to="/createpost"
-                    className={active === 5 ? "activeLink" : "navLink"}
-                  >
-                    Create
-                  </Link>
-                </motion.li>
-                <motion.li
-                  className="navItem"
-                  onClick={() => {
-                    isActive(4);
-                    signUserOut();
-                  }}
-                  whileHover={{ scale: 0.9 }}
-                >
-                  <Link
-                    to="/login"
-                    className={active === 4 ? "activeLink" : "navLink"}
-                  >
-                    Logout
-                  </Link>
-                </motion.li>
-              </>
-            )}
           </ul>
         </nav>
       </header>
@@ -118,18 +80,14 @@ export default function Header({ isAuth, signUserOut }) {
           <div className="toggle" onClick={handleToggle}>
             <FiMenu
               size={28}
-              fill="black"
-              stroke="black"
+              fill="white"
+              stroke="white"
               style={{ cursor: "pointer" }}
             />
           </div>
 
           <ul className={`navList ${toggle ? "show" : ""}`}>
-            <motion.li className="navItem" onClick={() => isActive(1)} whileHover={{ scale: 0.9 }}>
-              <Link to="/" className={active === 1 ? "activeLink" : "navLink"}>
-                Home
-              </Link>
-            </motion.li>
+            
             <motion.li className="navItem" onClick={() => isActive(2)} whileHover={{ scale: 0.9 }}>
               <Link
                 to="/portfolio"
@@ -138,50 +96,11 @@ export default function Header({ isAuth, signUserOut }) {
                 Portfolio
               </Link>
             </motion.li>
-            <motion.li className="navItem" onClick={() => isActive(3)} whileHover={{ scale: 0.9 }}>
-              <Link
-                to="/journals"
-                className={active === 3 ? "activeLink" : "navLink"}
-              >
-                Journals
+            <motion.li className="navItem" onClick={() => isActive(4)} whileHover={{ scale: 0.9 }}>
+              <Link to="/contact" className={active === 4 ? "activeLink" : "navLink"}>
+                Contact
               </Link>
             </motion.li>
-            {!isAuth ? (
-              <motion.li className="navItem" onClick={() => isActive(4)} whileHover={{ scale: 0.9 }}>
-                <Link
-                  to="/login"
-                  className={active === 4 ? "activeLink" : "navLink"}
-                >
-                  Login
-                </Link>
-              </motion.li>
-            ) : (
-              <>
-                <motion.li className="navItem" onClick={() => isActive(5)} whileHover={{ scale: 0.9 }}>
-                  <Link
-                    to="/createpost"
-                    className={active === 5 ? "activeLink" : "navLink"}
-                  >
-                    Create
-                  </Link>
-                </motion.li>
-                <motion.li
-                  className="navItem"
-                  onClick={() => {
-                    isActive(4);
-                    signUserOut();
-                  }}
-                  whileHover={{ scale: 0.9 }}
-                >
-                  <Link
-                    to="/login"
-                    className={active === 4 ? "activeLink" : "navLink"}
-                  >
-                    Logout
-                  </Link>
-                </motion.li>
-              </>
-            )}
           </ul>
         </nav>
       </header>
