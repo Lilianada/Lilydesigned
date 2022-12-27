@@ -23,7 +23,7 @@ export default function Header({ isAuth, signUserOut }) {
       <header className="desktopHeader">
         <nav className="navItems">
           <Link
-            to="/"
+            to="/home"
             className={active === 1 ? "activeLogo" : "logoName"}
             onClick={() => isActive(1)}
           >
@@ -76,7 +76,7 @@ export default function Header({ isAuth, signUserOut }) {
 
       <header className="mobileHeader">
         <Link
-          to="/"
+          to="/home"
           className={active === 1 ? "activeLogo" : "logoName"}
           onClick={() => isActive(1)}
         >
