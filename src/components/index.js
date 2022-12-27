@@ -1,3 +1,5 @@
+export { default as Work } from "./Work/Work";
+
 export { default as Footer } from "./Footer/Footer";
 export { default as Login } from "../pages/Login";
 export { default as Create } from "./Journals/Create";

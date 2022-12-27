@@ -1,0 +1,27 @@
+.workSection{
+    width: 100%;
+    display: grid;
+    place-items: center;
+    margin: 1rem auto;
+
+    @media screen and (min-width: 768px){
+        width: 35rem;
+    }
+
+    .title{
+    //     transition: all .2s ease-in-out;
+    // background: linear-gradient(271deg,#a0e9ff 30%,#a162e8 50%,#f093b0 70%,#edca85 94%);
+    // color: #fff;
+    // -webkit-background-clip: text;
+    // -webkit-text-fill-color: transparent;
+    }
+
+    .text{
+        text-align: center;
+    }
+
+    .workList{
+        display: flex;
+        flex-direction: column;
+    }
+}

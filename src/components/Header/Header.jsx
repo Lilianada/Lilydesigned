@@ -35,8 +35,8 @@ export default function Header({ isAuth, signUserOut }) {
               fill="none"
             >
               <path
-                fill-rule="evenodd"
-                clip-rule="evenodd"
+                fillRule="evenodd"
+                clipRule="evenodd"
                 d="M0 16C10.1699 16 16 10.1699 16 0C16 10.1699 21.8301 16 32 16C21.8301 16 16 21.8301 16 32C16 21.8301 10.1699 16 0 16Z"
                 fill="#fff"
               />

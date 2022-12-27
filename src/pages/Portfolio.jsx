@@ -1,9 +1,10 @@
 import React from "react";
-import { Header } from "../components";
+import { Header, Work } from "../components";
 
 export default function Portfolio() {
   return (
     <main className="mainWrapper">
-      </main>
+      <Work />
+    </main>
   );
 }
