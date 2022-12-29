@@ -1,5 +1,5 @@
 import React from "react";
-import { Header, Work } from "../components";
+import { Work } from "../components";
 
 export default function Portfolio() {
   return (
