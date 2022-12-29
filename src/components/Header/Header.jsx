@@ -29,7 +29,7 @@ export default function Header({ isAuth, signUserOut }) {
               to="/"
               className={active === 1 ? "activeLogo" : "logoName"}
             >
-              <svg
+              {/* <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="32"
                 height="32"
@@ -43,7 +43,7 @@ export default function Header({ isAuth, signUserOut }) {
                   d="M0 16C10.1699 16 16 10.1699 16 0C16 10.1699 21.8301 16 32 16C21.8301 16 16 21.8301 16 32C16 21.8301 10.1699 16 0 16Z"
                   fill="#fff"
                 />
-              </svg>
+              </svg> */}
               LilyDesigned
             </Link>
 
