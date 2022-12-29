@@ -3,7 +3,6 @@ import {Route, Routes, useLocation } from "react-router-dom";
 import {
   Home,
   Portfolio,
-  Journal,
   Header,
   Footer,
   Contact,
@@ -20,7 +19,6 @@ function App() {
             <Routes location={location} key={location.pathname}>
               <Route path="/" index element={<Home />} />
               <Route path="/portfolio" element={<Portfolio />} />
-              <Route path="/journals" element={<Journal />} />
               <Route path="/contact" element={<Contact />} />
             </Routes>
           </AnimatePresence>
