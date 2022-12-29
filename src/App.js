@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Routes, useLocation } from "react-router-dom";
+import {Route, Routes, useLocation } from "react-router-dom";
 import {
   Home,
   Portfolio,
@@ -15,7 +15,6 @@ function App() {
   return (
     <div className="App">
       <main className="mainWrapper">
-        <Router>
           <Header />
           <AnimatePresence>
             <Routes location={location} key={location.pathname}>
@@ -26,7 +25,6 @@ function App() {
             </Routes>
           </AnimatePresence>
           <Footer />
-        </Router>
       </main>
     </div>
   );
