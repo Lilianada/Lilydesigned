@@ -3,7 +3,7 @@ import Pic from "../../../src/assets/images/LilyAvatar.jpg";
 import Resume from "../../../src/assets/images/LilianResume.pdf";
 import "./Hero.scss";
 
-export default function AboutHero() {
+export default function Hero() {
   return (
     <section className="aboutHero">
       <div className="profilePicture">
