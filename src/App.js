@@ -1,6 +1,6 @@
 import React from "react";
 import { Route, Routes, useLocation } from "react-router-dom";
-import { Home, Portfolio, Journal, Header, Footer, Contact  } from "./components";
+import { Home, Portfolio, Header, Footer, Contact  } from "./components";
 import { AnimatePresence } from "framer-motion";
 
 function App() {
