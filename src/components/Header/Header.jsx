@@ -1,11 +1,10 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import { FiMenu } from "react-icons/fi";
 import { ErrorBoundary } from "../../components";
 import "./Header.scss";
 import { motion } from "framer-motion";
 
-export default function Header({ isAuth, signUserOut }) {
+export default function Header() {
   const [active, setActive] = useState(1);
 
   const isActive = (index) => {
