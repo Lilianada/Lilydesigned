@@ -1,6 +1,9 @@
 import { motion } from "framer-motion";
 import React from "react";
-import { Footer, Header, Hero } from "../components";
+import { Footer, Header } from "../components";
+import Pic from "../assets/images/LilyAvatar.jpg";
+import Resume from "../assets/images/LilianResume.pdf";
+import "../components/Hero/Hero.scss";
 
 export default function Home() {
   return (
@@ -12,7 +15,24 @@ export default function Home() {
       transition={{ duration: 0.3 }}
     >
       <Header/>
-      <Hero />
+      <section className="aboutHero">
+      <div className="profilePicture">
+        <img src={Pic} alt="Profile" className="img" />
+      </div>
+      <div className="profileDescription">
+        <h3 className="title">
+          Hi - I'm Lilian, a Frontend developer for high impact organizations.
+        </h3>
+        <p className="text">
+          I am mostly interested in bridging the gap between organizations,
+          businesses and their users by creating user friendly UI components and
+          bringing products to life.
+        </p>
+      </div>
+      <a href={Resume} download className="btnPrimary">
+        Curriculum Vitae
+      </a>
+    </section>
       <Footer/>
     </motion.main>
   );
