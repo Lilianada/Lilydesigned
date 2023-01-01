@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import React from "react";
-import { Work } from "../components";
+import { Footer, Header, Work } from "../components";
 
 export default function Portfolio() {
   return (
@@ -11,7 +11,9 @@ export default function Portfolio() {
       exist={{ opacity: 0 }}
       transition={{ duration: 0.3 }}
     >
+      <Header/>
       <Work />
+      <Footer/>
     </motion.main>
   );
 }
