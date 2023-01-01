@@ -1,7 +1,7 @@
 .aboutHero{
     display: flex;
     flex-direction: column;
-    margin: 3rem auto;
+    margin: 2rem auto;
     align-items: center;
     justify-content: flex-start;
     text-align: center;
@@ -47,7 +47,7 @@
 
         .text{
             margin-top: 1rem;
-            font-size: var(--twenty);
+            font-size: var(--eighteen);
             line-height: 1.5rem;
             color: var(--white);
         }
