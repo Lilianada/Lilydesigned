@@ -5,7 +5,7 @@ import { Footer, Header, Hero } from "../components";
 export default function Home() {
   return (
     <motion.main
-    className="mainWrapper"
+      className="mainWrapper"
       initial={{ opacity: 0.5 }}
       animate={{ opacity: 1 }}
       exist={{ opacity: 0 }}
