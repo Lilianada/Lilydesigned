@@ -1,14 +1,9 @@
 import React from "react";
-import { Helmet } from "react-helmet-async";
 import "./Contact.scss";
 
 export default function ContactPage() {
   return (
     <section className="contactSection">
-      <Helmet>
-        <title>Contact</title>
-        <meta name="description" content="To contact Lilian" />
-      </Helmet>
         <h3 className="title">Contact Me</h3>
         <p className="text">
           I am very much open to Full-time Frontend Developer roles or Product Manager roles both remote and on-site.

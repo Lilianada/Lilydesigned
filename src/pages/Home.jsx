@@ -3,6 +3,7 @@ import React from "react";
 import { Footer, Header } from "../components";
 import Pic from "../assets/images/LilyAvatar.jpg";
 import Resume from "../assets/images/LilianResume.pdf";
+import { Helmet } from "react-helmet-async";
 import "../components/Hero/Hero.scss";
 
 export default function Home() {
@@ -14,6 +15,11 @@ export default function Home() {
       exist={{ opacity: 0 }}
       transition={{ duration: 0.3 }}
     >
+      <Helmet>
+        <title>Home</title>
+        <meta name="description" content="About Lilian" />
+        <link rel="canonical" href="/" />
+      </Helmet>
       <Header />
       <section className="aboutHero">
         <div className="profilePicture">

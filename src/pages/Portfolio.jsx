@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import React from "react";
+import { Helmet } from "react-helmet-async";
 import { Footer, Header, Work } from "../components";
 
 export default function Portfolio() {
@@ -11,6 +12,11 @@ export default function Portfolio() {
       exist={{ opacity: 0 }}
       transition={{ duration: 0.3 }}
     >
+      <Helmet>
+        <title>Portfolio</title>
+        <meta name="description" content="Lilian's portfolio" />
+        <link rel="canonical" href="/portfolio" />
+      </Helmet>
       <Header/>
       <Work />
       <Footer/>
