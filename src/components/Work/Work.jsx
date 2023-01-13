@@ -150,7 +150,7 @@ export default function Work() {
         </div>
       </div>
     
-        <div className="head">
+        <div className="subhead">
             <p className="text">
                 Here are some of my most recent personal projects:
             </p>

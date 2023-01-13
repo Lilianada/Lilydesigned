@@ -9,13 +9,9 @@
         margin: 2rem auto 2rem;
     }
 
+    
     .head{
         margin-bottom: 3rem;
-        
-        &:nth-child(2){
-            margin-bottom: 0;
-            margin-top: 3rem;
-        }
 
         .title{
             margin-top: 0;
@@ -30,64 +26,77 @@
         }
     }
 
+    .subhead{
+        margin-top: 3rem;
+
+        .text{
+            text-align: center;
+    
+            @media screen and (min-width: 768px){
+                width: 35rem;
+            }
+        }
+    }
+
 
     .workList{
         display: flex;
         flex-direction: column;
-    }
 
-    .workWrap{
-        display: flex;
-        flex-direction: column;
-        margin-bottom: 3rem;
-
-        @media screen and (min-width: 768px) {
-            display: grid;
-            grid-template-columns: 56% 40%;
-            margin: 4rem auto;
-            gap: 3rem;
-            width: 70%;
-            margin-bottom: 2rem;
-            
-        }
-
-        .project{
-            display: flex;  
+        .workWrap{
+            display: flex;
             flex-direction: column;
-
-            .projectName{
-                text-transform: uppercase;
-                font-size: var(--fourteen);
-                font-weight: 600;
+            margin-bottom: 3rem;
+    
+            @media screen and (min-width: 768px) {
+                display: grid;
+                grid-template-columns: 56% 40%;
+                margin: 4rem auto;
+                gap: 3rem;
+                width: 70%;
+                margin-bottom: 2rem;
+                
             }
-
-            .projectDetails{
-                font-size: var(--sixteen);
-                margin-bottom: 1rem;
+    
+            .project{
+                display: flex;  
+                flex-direction: column;
+    
+                .projectName{
+                    text-transform: uppercase;
+                    font-size: var(--fourteen);
+                    font-weight: 600;
+                }
+    
+                .projectDetails{
+                    font-size: var(--sixteen);
+                    margin-bottom: 1rem;
+                }
+    
+                .btnPrimary{
+                    width: 8rem;
+                    height: 3rem;
+                    text-align: center;
+                    font-size: var(--eighteen);
+                    transition: all 0.3s;
+    
+                    &:hover {
+                        transform: scale(.9, .9);
+                    }
+                }
             }
-
-            .btnPrimary{
-                width: 8rem;
-                height: 3rem;
-                text-align: center;
-                font-size: var(--eighteen);
-                transition: all 0.3s;
-
-                &:hover {
-                    transform: scale(.9, .9);
+    
+            .projectImage{
+                // background: ;
+                height: fit-content;
+                margin-top: 2rem;
+    
+                @media screen and (min-width: 768px) {
+                    height: 100%;
+                    margin-top: 0;
                 }
             }
         }
-
-        .projectImage{
-            // background: ;
-            height: fit-content;
-            margin-top: 2rem;
-
-            @media screen and (min-width: 768px) {
-                height: 100%;
-                margin-top: 0;
-            }
-        }
     }
+
 }
