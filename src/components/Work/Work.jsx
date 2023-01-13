@@ -5,8 +5,9 @@ import Pic3 from "../../assets/images/C1oudnimi.png";
 import Pic4 from "../../assets/images/BeBlended.png";
 import Pic5 from "../../assets/images/FreedomAction.png";
 import Pic6 from "../../assets/images/GithubUserSearch.png";
-import Pic7 from "../../assets/images/FatbossGambling.png";
+import Pic7 from "../../assets/images/Fatbossgambling.png";
 import Pic8 from "../../assets/images/Github-repo-display.png";
+import Pic9 from "../../assets/images/React-Calculator.png";
 import "./Work.scss";
 
 export default function Work() {
@@ -156,7 +157,7 @@ export default function Work() {
 
         <div className="workWrap">
           <div className="project">
-            <p className="projectName">GitHub API Project | July 2022 </p>
+            <p className="projectName">GitHub API Project | January 2023 </p>
             <p className="projectDetails">
               This is a personal project that consumes the GitHub API and returns the list of repositories in my GitHub portfolio as well as my GitHub profile. The project is built with React and uses ContextAPI so that we are able to reuse the reponses from the API globally.
             </p>
@@ -175,6 +176,26 @@ export default function Work() {
           </div>
         </div>
 
+        <div className="workWrap">
+          <div className="project">
+            <p className="projectName">React Calculator | October 2022 </p>
+            <p className="projectDetails">
+              This is a simple calculator built with React. It is a personal project that I built to help me go over certain concepts that I had learnt.
+            </p>
+            <a
+              className="btnPrimary"
+              href="https://lily-react-calculator.vercel.app/"
+              target="_blank"
+              rel="noreferrer"
+              aria-disabled
+            >
+              View
+            </a>
+          </div>
+          <div className="projectImage">
+            <img src={Pic9} alt="Project Screenshot" />
+          </div>
+        </div>
 
         <div className="workWrap">
           <div className="project">
