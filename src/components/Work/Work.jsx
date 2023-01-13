@@ -5,6 +5,8 @@ import Pic3 from "../../assets/images/C1oudnimi.png";
 import Pic4 from "../../assets/images/BeBlended.png";
 import Pic5 from "../../assets/images/FreedomAction.png";
 import Pic6 from "../../assets/images/GithubUserSearch.png";
+import Pic7 from "../../assets/images/FatbossGambling.png";
+import Pic8 from "../../assets/images/Github-repo-display.png";
 import "./Work.scss";
 
 export default function Work() {
@@ -18,6 +20,28 @@ export default function Work() {
         </div>
 
       <div className="workList">
+        <div className="workWrap">
+          <div className="project">
+            <p className="projectName">FatBossGambling | January 2023 </p>
+            <p className="projectDetails">
+              FatBossGambling is an online Casino. State-of-the-art platform that offers a wide selection of exciting casino games, all powered by top-notch software. They've got all your favourites, from classic slots and
+              table games to the latest releases. With top-rated graphics and smooth gameplay, you'll feel right in the middle of the action. Plus, withnew games added all the time, you'll always have options.
+            </p>
+            <a
+              className="btnPrimary"
+              href="https://fatboss.vercel.app"
+              target="_blank"
+              rel="noreferrer"
+              aria-disabled
+            >
+              View
+            </a>
+          </div>
+          <div className="projectImage">
+            <img src={Pic7} alt="Project Screenshot" />
+          </div>
+        </div>
+
         <div className="workWrap">
           <div className="project">
             <p className="projectName">BeBlended | July 2022 </p>
@@ -84,26 +108,6 @@ export default function Work() {
 
         <div className="workWrap">
           <div className="project">
-            <p className="projectName">Github User Search | March 2022 </p>
-            <p className="projectDetails">
-              A simple project that consumes a page of the github's Api and
-              returns a list of users when a name is searched.
-            </p>
-            <a
-              className="btnPrimary"
-              href="https://github-user-profile-search.netlify.app/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              View Site
-            </a>
-          </div>
-          <div className="projectImage">
-            <img src={Pic6} alt="Project Screenshot" />
-          </div>
-        </div>
-        <div className="workWrap">
-          <div className="project">
             <p className="projectName">Journals Your Way | Feb 2022 </p>
             <p className="projectDetails">
               An eCommerce store that focuses on selling journals and note books
@@ -122,6 +126,7 @@ export default function Work() {
             <img src={Pic1} alt="Project Screenshot" />
           </div>
         </div>
+
         <div className="workWrap">
           <div className="project">
             <p className="projectName">Freedom Action Now | 2021 </p>
@@ -142,6 +147,56 @@ export default function Work() {
             <img src={Pic5} alt="Project Screenshot" />
           </div>
         </div>
+
+        <div className="head">
+            <p className="text">
+                Here are some of my most recent personal projects:
+            </p>
+        </div>
+
+        <div className="workWrap">
+          <div className="project">
+            <p className="projectName">GitHub API Project | July 2022 </p>
+            <p className="projectDetails">
+              This is a personal project that consumes the GitHub API and returns the list of repositories in my GitHub portfolio as well as my GitHub profile. The project is built with React and uses ContextAPI so that we are able to reuse the reponses from the API globally.
+            </p>
+            <a
+              className="btnPrimary"
+              href="https://github-repo-display.netlify.app/"
+              target="_blank"
+              rel="noreferrer"
+              aria-disabled
+            >
+              View
+            </a>
+          </div>
+          <div className="projectImage">
+            <img src={Pic8} alt="Project Screenshot" />
+          </div>
+        </div>
+
+
+        <div className="workWrap">
+          <div className="project">
+            <p className="projectName">Github User Search | March 2022 </p>
+            <p className="projectDetails">
+              A simple project that consumes a page of the github's Api and
+              returns a list of users when a name is searched.
+            </p>
+            <a
+              className="btnPrimary"
+              href="https://github-user-profile-search.netlify.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              View Site
+            </a>
+          </div>
+          <div className="projectImage">
+            <img src={Pic6} alt="Project Screenshot" />
+          </div>
+        </div>
+
       </div>
     </section>
   );
