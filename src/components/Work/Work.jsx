@@ -148,13 +148,14 @@ export default function Work() {
             <img src={Pic5} alt="Project Screenshot" />
           </div>
         </div>
-
+      </div>
+    
         <div className="head">
             <p className="text">
                 Here are some of my most recent personal projects:
             </p>
         </div>
-
+      <div className="workList">
         <div className="workWrap">
           <div className="project">
             <p className="projectName">GitHub API Project | January 2023 </p>
@@ -217,7 +218,6 @@ export default function Work() {
             <img src={Pic6} alt="Project Screenshot" />
           </div>
         </div>
-
       </div>
     </section>
   );
