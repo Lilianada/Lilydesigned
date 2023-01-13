@@ -12,6 +12,11 @@
     .head{
         margin-bottom: 3rem;
 
+        &:nth-child(2){
+            margin-bottom: 0;
+            margin-top: 3rem;
+        }
+
         .title{
             margin-top: 0;
         }
