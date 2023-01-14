@@ -30,8 +30,8 @@
         margin-bottom: 2rem;
 
         @media screen and (min-width: 768px) {
-            margin-top: 0;
-            margin-bottom: 3rem;
+            margin-top: 2rem;
+            margin-bottom: 1rem;
         }
 
         .text{
@@ -69,8 +69,14 @@
     
                 .projectName{
                     text-transform: uppercase;
-                    font-size: var(--fourteen);
+                    font-size: var(--eighteen);
                     font-weight: 600;
+                }
+
+                .projectLang{
+                    font-size: var(--sixteen);
+                    color: var(--purple);
+                    margin-bottom: .25rem;
                 }
     
                 .projectDetails{
@@ -81,6 +87,8 @@
                 .btnPrimary{
                     width: 8rem;
                     height: 3rem;
+                    display: grid;
+                    place-items: center;
                     text-align: center;
                     font-size: var(--eighteen);
                     transition: all 0.3s;
@@ -92,7 +100,6 @@
             }
     
             .projectImage{
-                // background: ;
                 height: fit-content;
                 margin-top: 2rem;
     
