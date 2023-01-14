@@ -27,7 +27,12 @@
     }
 
     .subhead{
-        margin-top: 3rem;
+        margin-bottom: 2rem;
+
+        @media screen and (min-width: 768px) {
+            margin-top: 0;
+            margin-bottom: 3rem;
+        }
 
         .text{
             text-align: center;

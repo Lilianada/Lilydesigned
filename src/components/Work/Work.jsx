@@ -30,7 +30,7 @@ export default function Work() {
             </p>
             <a
               className="btnPrimary"
-              href="https://fatboss.vercel.app"
+              href="https://fatboss-gamma.vercel.app/"
               target="_blank"
               rel="noreferrer"
               aria-disabled
@@ -152,7 +152,7 @@ export default function Work() {
     
         <div className="subhead">
             <p className="text">
-                Here are some of my most recent personal projects:
+                Here are some of my most recent <span className="purpleColor">personal</span> projects:
             </p>
         </div>
       <div className="workList">
