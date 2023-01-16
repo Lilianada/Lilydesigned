@@ -8,7 +8,7 @@ $textFont: "Karla", sans-serif;
 /*------------ [Root]-----------*/
 $white: #ffffff;
 $text: #555555;
-$purple: #786090;
+$purple: #d1c3fe;
 $litePurple: #eadaf0;
 $pink: #ebcce9;
 $hotPink: #893583;
@@ -383,4 +383,9 @@ button {
         font-weight: 500;
         outline: none;
     }
+}
+
+// span
+.purpleColor{
+    color: var(--purple);
 }
