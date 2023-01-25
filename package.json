@@ -25,7 +25,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "scss": "node-sass --watch scss -o css",
-    "homepage": "https://lilidesigned.netlify.app/",
+    "homepage": "https://lilidesigned.vercel.app/",
     "build-localhost": "PUBLIC_URL=/ react-scripts build"
   },
   "eslintConfig": {

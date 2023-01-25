@@ -31,7 +31,7 @@ export default function Work() {
             </p>
             <a
               className="btnPrimary"
-              href="https://fatboss-gamma.vercel.app/"
+              href="https://fatbosskgasyno.pl/"
               target="_blank"
               rel="noreferrer"
               aria-disabled
