@@ -273,15 +273,26 @@ export default function Work() {
             <p className="projectDetails">
               This is a simple calculator built with React. It is a personal project that I built to help me go over certain concepts that I had learnt.
             </p>
-            <a
-              className="btnPrimary"
-              href="https://lily-react-calculator.vercel.app/"
-              target="_blank"
-              rel="noreferrer"
-              aria-disabled
-            >
-              View Site
-            </a>
+            <div className="btnWrap">
+              <a
+                className="btnPrimary"
+                href="https://lily-react-calculator.vercel.app/"
+                target="_blank"
+                rel="noreferrer"
+                aria-disabled
+              >
+                View Site
+              </a>
+              <a
+                className="btnSecondary"
+                href="https://github.com/Lilianada/React-calculator"
+                target="_blank"
+                rel="noreferrer"
+                aria-disabled
+              >
+                Visit Github
+              </a>
+            </div>
           </div>
           <div className="projectImage">
             <img src={Pic9} alt="Project Screenshot" />
@@ -296,14 +307,26 @@ export default function Work() {
               A simple project that consumes a page of the github's Api and
               returns a list of users when a name is searched.
             </p>
-            <a
-              className="btnPrimary"
-              href="https://github-user-profile-search.netlify.app/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              View Site
-            </a>
+            <div className="btnWrap">
+              <a
+                className="btnPrimary"
+                href="https://github-user-profile-search.netlify.app/"
+                target="_blank"
+                rel="noreferrer"
+                aria-disabled
+              >
+                View Site
+              </a>
+              <a
+                className="btnSecondary"
+                href="https://github.com/Lilianada/Github-user-search"
+                target="_blank"
+                rel="noreferrer"
+                aria-disabled
+              >
+                Visit Github
+              </a>
+            </div>
           </div>
           <div className="projectImage">
             <img src={Pic6} alt="Project Screenshot" />
