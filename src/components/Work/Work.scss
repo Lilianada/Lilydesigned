@@ -90,7 +90,24 @@
                     display: grid;
                     place-items: center;
                     text-align: center;
+                    border-radius: 16px;
                     font-size: var(--eighteen);
+                    transition: all 0.3s;
+    
+                    &:hover {
+                        transform: scale(.9, .9);
+                    }
+                }
+                
+                .btnSecondary{
+                    width: 10rem;
+                    height: 3rem;
+                    display: grid;
+                    place-items: center;
+                    text-align: center;
+                    border-radius: 16px;
+                    font-size: var(--eighteen);
+                    margin-left: 1rem;
                     transition: all 0.3s;
     
                     &:hover {

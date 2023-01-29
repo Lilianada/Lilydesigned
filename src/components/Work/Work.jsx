@@ -29,15 +29,26 @@ export default function Work() {
               FatBossGambling is an online Casino. State-of-the-art platform that offers a wide selection of exciting casino games, all powered by top-notch software. They've got all your favourites, from classic slots and
               table games to the latest releases. With top-rated graphics and smooth gameplay, you'll feel right in the middle of the action. Plus, withnew games added all the time, you'll always have options.
             </p>
-            <a
-              className="btnPrimary"
-              href="https://fatbosskgasyno.pl/"
-              target="_blank"
-              rel="noreferrer"
-              aria-disabled
-            >
-              View
-            </a>
+            <div className="btnWrap">
+              <a
+                className="btnPrimary"
+                href="https://fatbosskgasyno.pl/"
+                target="_blank"
+                rel="noreferrer"
+                aria-disabled
+              >
+                View Site
+              </a>
+              <a
+                className="btnSecondary"
+                href="https://github.com/lilianada/FatBoss"
+                target="_blank"
+                rel="noreferrer"
+                aria-disabled
+              >
+                Visit Github
+              </a>
+            </div>
           </div>
           <div className="projectImage">
             <img src={Pic7} alt="Project Screenshot" />
@@ -53,15 +64,26 @@ export default function Work() {
               yourself, BeBlended provides you with both options fast and easy
               within Canada.
             </p>
-            <a
-              className="btnPrimary"
-              href="https://journalsyourway.com"
-              target="_blank"
-              rel="noreferrer"
-              aria-disabled
-            >
-              No View
-            </a>
+            <div className="btnWrap">
+              <a
+                className="btnPrimary"
+                href="/"
+                target="_blank"
+                rel="noreferrer"
+                aria-disabled
+              >
+                In Progress
+              </a>
+              <a
+                className="btnSecondary"
+                href="https://github.com/lilianada/BeBlended"
+                target="_blank"
+                rel="noreferrer"
+                aria-disabled
+              >
+                Visit Github
+              </a>
+            </div>
           </div>
           <div className="projectImage">
             <img src={Pic4} alt="Project Screenshot" />
@@ -76,14 +98,26 @@ export default function Work() {
               A simple website for a mobile games company that provides more
               information about the company as well as its terms and conditions.
             </p>
-            <a
-              className="btnPrimary"
-              href="https://coloringcultures.app"
-              target="_blank"
-              rel="noreferrer"
-            >
-              View Site
-            </a>
+            <div className="btnWrap">
+              <a
+                className="btnPrimary"
+                href="https://coloringcultures.app"
+                target="_blank"
+                rel="noreferrer"
+                aria-disabled
+              >
+                In Progress
+              </a>
+              <a
+                className="btnSecondary"
+                href="https://github.com/Lilianada/ColoringCultures"
+                target="_blank"
+                rel="noreferrer"
+                aria-disabled
+              >
+                Visit Github
+              </a>
+            </div>
           </div>
           <div className="projectImage">
             <img src={Pic2} alt="Project Screenshot" />
@@ -98,14 +132,26 @@ export default function Work() {
               A company's website that helps their clients build businesses by
               designing & implementing production-grade business needs.
             </p>
-            <a
-              className="btnPrimary"
-              href="https://cloudnimi.netlify.app/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              View Site
-            </a>
+            <div className="btnWrap">
+              <a
+                className="btnPrimary"
+                href="https://cloudnimi.netlify.app/"
+                target="_blank"
+                rel="noreferrer"
+                aria-disabled
+              >
+                View Site
+              </a>
+              <a
+                className="btnSecondary"
+                href="https://github.com/Lilianada/Cloudnimi"
+                target="_blank"
+                rel="noreferrer"
+                aria-disabled
+              >
+                Visit Github
+              </a>
+            </div>
           </div>
           <div className="projectImage">
             <img src={Pic3} alt="Project Screenshot" />
@@ -120,14 +166,26 @@ export default function Work() {
               An eCommerce store that focuses on selling journals and note books
               to people across the US.
             </p>
-            <a
-              className="btnPrimary"
-              href="https://journalsyourway.com"
-              target="_blank"
-              rel="noreferrer"
-            >
-              View Site
-            </a>
+            <div className="btnWrap">
+              <a
+                className="btnPrimary"
+                href="https://journalsyourway.com"
+                target="_blank"
+                rel="noreferrer"
+                aria-disabled
+              >
+                View Site
+              </a>
+              <a
+                className="btnSecondary"
+                href="/"
+                target="_blank"
+                rel="noreferrer"
+                aria-disabled
+              >
+                No Github
+              </a>
+            </div>
           </div>
           <div className="projectImage">
             <img src={Pic1} alt="Project Screenshot" />
@@ -142,14 +200,26 @@ export default function Work() {
               Voter Education. Leadership Development. Community Organizing.
               Policy Advocacy.
             </p>
-            <a
-              className="btnPrimary"
-              href="https://freedomactionnow.org/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              View Site
-            </a>
+            <div className="btnWrap">
+              <a
+                className="btnPrimary"
+                href="https://freedomactionnow.org/"
+                target="_blank"
+                rel="noreferrer"
+                aria-disabled
+              >
+                View Site
+              </a>
+              <a
+                className="btnSecondary"
+                href="/"
+                target="_blank"
+                rel="noreferrer"
+                aria-disabled
+              >
+                No Github
+              </a>
+            </div>
           </div>
           <div className="projectImage">
             <img src={Pic5} alt="Project Screenshot" />
@@ -170,15 +240,26 @@ export default function Work() {
             <p className="projectDetails">
               This is a personal project that consumes the GitHub API and returns the list of repositories in my GitHub portfolio as well as my GitHub profile. The project is built with React and uses ContextAPI so that we are able to reuse the reponses from the API globally.
             </p>
-            <a
-              className="btnPrimary"
-              href="https://github-repo-display.netlify.app/"
-              target="_blank"
-              rel="noreferrer"
-              aria-disabled
-            >
-              View Site
-            </a>
+            <div className="btnWrap">
+              <a
+                className="btnPrimary"
+                href="https://github-repo-display.netlify.app/"
+                target="_blank"
+                rel="noreferrer"
+                aria-disabled
+              >
+                View Site
+              </a>
+              <a
+                className="btnSecondary"
+                href="https://github.com/Lilianada/Github-profile-repo"
+                target="_blank"
+                rel="noreferrer"
+                aria-disabled
+              >
+                Visit Github
+              </a>
+            </div>
           </div>
           <div className="projectImage">
             <img src={Pic8} alt="Project Screenshot" />
