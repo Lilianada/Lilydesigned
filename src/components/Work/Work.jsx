@@ -8,6 +8,8 @@ import Pic6 from "../../assets/images/GithubUserSearch.png";
 import Pic7 from "../../assets/images/Fatbossgambling.png";
 import Pic8 from "../../assets/images/Github-repo-display.png";
 import Pic9 from "../../assets/images/React-Calculator.png";
+import Pic10 from "../../assets/images/Thevideogamevault.png";
+import Pic11 from "../../assets/images/Funconnect.png";
 import "./Work.scss";
 
 export default function Work() {
@@ -21,6 +23,72 @@ export default function Work() {
         </div>
 
       <div className="workList">
+        <div className="workWrap">
+          <div className="project">
+            <p className="projectName">The Video Game Vault | February 2023 </p>
+            <p className="projectLang">HTML/CSS</p>
+            <p className="projectDetails">
+              The Video Game Vault is a simple website for a gamer where he has all his youtube videos linked as well as articles about the games he plays. The website is also a place where he can share his thoughts about the games he wants to play.
+              <br/>Although this is currently in progress, you can still check out the pages available on the netlify hosted site.
+            </p>
+            <div className="btnWrap">
+              <a
+                className="btnPrimary"
+                href="https://the-videogame-vault.netlify.app/"
+                target="_blank"
+                rel="noreferrer"
+                aria-disabled
+              >
+                In Progress
+              </a>
+              <a
+                className="btnSecondary"
+                href="https://github.com/Lilianada/TheVideoGameVault"
+                target="_blank"
+                rel="noreferrer"
+                aria-disabled
+              >
+                Visit Github
+              </a>
+            </div>
+          </div>
+          <div className="projectImage">
+            <img src={Pic10} alt="Project Screenshot" />
+          </div>
+        </div>
+        <div className="workWrap">
+          <div className="project">
+            <p className="projectName">FunConnect | January 2023 </p>
+            <p className="projectLang">HTML/CSS</p>
+            <p className="projectDetails">
+            Funconnect is a modern way of exploring fun places, a social way to connect like-minds, and a space to share experiences.Discover new activities and places to visit. Unlock a world of possibilities with the app. 
+            <br/>Although this is currently in progress, you can still check out the pages available on the netlify hosted site.
+            </p>
+            <div className="btnWrap">
+              <a
+                className="btnPrimary"
+                href="https://fun-connect.vercel.app/"
+                target="_blank"
+                rel="noreferrer"
+                aria-disabled
+              >
+                In Progress
+              </a>
+              <a
+                className="btnSecondary"
+                href="https://github.com/lilianada/FunConnect"
+                target="_blank"
+                rel="noreferrer"
+                aria-disabled
+              >
+                Visit Github
+              </a>
+            </div>
+          </div>
+          <div className="projectImage">
+            <img src={Pic11} alt="Project Screenshot" />
+          </div>
+        </div>
         <div className="workWrap">
           <div className="project">
             <p className="projectName">FatBossGambling | January 2023 </p>
