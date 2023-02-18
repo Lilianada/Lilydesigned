@@ -4,7 +4,7 @@ import { Footer, Header } from "../components";
 import Pic from "../assets/images/LilyAvatar.jpg";
 import Resume from "../assets/images/LilianResume.pdf";
 import { Helmet } from "react-helmet-async";
-import "../components/Hero/Hero.scss";
+import "../components/Hero/style.scss";
 
 export default function Home() {
   return (

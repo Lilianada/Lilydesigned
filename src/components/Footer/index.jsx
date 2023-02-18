@@ -1,6 +1,6 @@
 import React from "react";
 import { RiArrowRightUpLine } from "react-icons/ri";
-import "./Footer.scss";
+import "./style.scss";
 
 export default function Footer() {
   return (

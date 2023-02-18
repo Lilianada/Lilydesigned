@@ -1,10 +1,10 @@
 export { default as Contact } from "../pages/Contact";
-export { default as Work } from "./Work/Work";
-export { default as Footer } from "./Footer/Footer";
-export { default as ContactPage } from "./Contact/ContactPage";
-export { default as AboutMe } from "./AboutMe/AboutMe";
-export { default as Hero } from "./Hero/Hero";
-export { default as ErrorBoundary } from "./ErrorBoundary/ErrorBoundary";
+export { default as Work } from "./Work";
+export { default as Footer } from "./Footer/";
+export { default as ContactPage } from "./Contact";
+export { default as AboutMe } from "./AboutMe";
+export { default as Hero } from "./Hero";
+export { default as ErrorBoundary } from "./ErrorBoundary";
 export { default as Home } from "../pages/Home";
 export { default as Portfolio } from "../pages/Portfolio";
-export { default as Header } from "./Header/Header";
+export { default as Header } from "./Header";

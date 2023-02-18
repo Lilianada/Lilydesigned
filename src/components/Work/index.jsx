@@ -10,7 +10,7 @@ import Pic8 from "../../assets/images/Github-repo-display.png";
 import Pic9 from "../../assets/images/React-Calculator.png";
 import Pic10 from "../../assets/images/Thevideogamevault.png";
 import Pic11 from "../../assets/images/Funconnect.png";
-import "./Work.scss";
+import "./style.scss";
 
 export default function Work() {
   return (
