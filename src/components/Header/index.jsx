@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { ErrorBoundary } from "..";
-import { motion } from "framer-motion";
 import "./style.scss";
+import { motion } from "framer-motion";
 
 export default function Header() {
   const [active, setActive] = useState(1);
