@@ -5,6 +5,7 @@ import Pic from "../assets/images/LilyAvatar.jpg";
 import Resume from "../assets/images/LilianResume.pdf";
 import { Helmet } from "react-helmet-async";
 import "../components/Hero/style.scss";
+import FiverrSellerWidget from "../components/FiverWidget";
 
 export default function Home() {
   return (
@@ -95,7 +96,7 @@ export default function Home() {
             </div>
 
             <div className="grid">
-              
+              <FiverrSellerWidget/>
             </div>
           </div>
         </div>
