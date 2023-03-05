@@ -1,5 +1,5 @@
 @use "sass:string";
-$headFont: "butlermedium";
+$headFont: "Satoshi";
 $textFont: "Karla", sans-serif;
 
 /*------------ [Font] -----------*/
@@ -81,6 +81,18 @@ html {
     scroll-behavior: smooth;
 }
 
+@font-face {
+    font-family: 'Satoshi';
+    src: url('./assets/fonts/Satoshi/Satoshi-Regular.woff2') format('woff2'),
+         url('./assets/fonts/Satoshi/Satoshi-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+  
+  body {
+    font-family: 'Satoshi Variable', sans-serif;
+  }
+  
 /*========================================*/
 /*--------------- [_Utility] -------------*/
 /*========================================*/
