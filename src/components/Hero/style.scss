@@ -9,12 +9,8 @@
     
     @media screen and (min-height: 800px) {
         margin: 4rem auto 3rem;
-        height: calc(100vh - 18rem);
     }
     
-    @media screen and (min-width: 768px){
-        width: 35rem;
-    }
 
     .profilePicture{
         width: 12rem;
@@ -71,15 +67,73 @@
             }
         }
 
-        .text{
-            margin-top: 1rem;
-            font-size: var(--eighteen);
-            line-height: 1.5rem;
-            color: var(--white);
+        .grid{
+            display: flex;
+            flex-direction: column;
+            margin-top: 4rem;
+
+            @media screen and (min-width: 500px) {
+                display: grid;
+                gap: 2rem;
+                grid-template-columns: 20% 75%;
+            }
+
+            .column{
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-start;
+                align-items: flex-start;
+                text-align: left;
+
+                .textTitle{
+                    color: var(--purple);
+                    font-size: 16px;
+                    font-weight: 700;
+                    letter-spacing: .075em;
+                    text-transform: uppercase;
+                    font-family: var(--font-head);
+                }
+
+                .text{
+                    margin-top: .5rem;
+                    font-size: var(--eighteen);
+                    line-height: 1.5rem;
+                    color: var(--white);
+                }
+
+                .grid{
+                    display: flex;
+                    flex-direction: column;
+                    margin-top: 0rem;
+        
+                    @media screen and (min-width: 500px) {
+                        display: grid;
+                        gap: 2rem;
+                        grid-template-columns: 20% 75%;
+                    }
+
+                    .column{
+                        .labels{
+                            text-align: left;
+                            margin-bottom: 1rem;
+
+                            .labelTitle{
+                                color: var(--purple);
+                                line-height: 2.5rem;
+                            }
+
+                            .labelValue{
+                                line-height: 1.5rem;
+                            }
+                        }
+                    }
+                }
+            }
         }
+
     }
     .btnPrimary{
-        width: 13rem;
+        width: fit-content;
         height: 3rem;
         margin-top: 1rem;
         margin-bottom: .75rem;
