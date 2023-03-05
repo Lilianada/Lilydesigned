@@ -38,11 +38,37 @@
         .title{
             font-family: var(--font-text);
             font-size: var(--thirtyTwo);
-            font-weight: 600;
+            font-weight: 500;
             line-height: 2rem;
             text-align: center;
             color: var(--white);
             margin-top: 1.5rem;
+
+            .wave {
+                animation: wave-animation 2.5s infinite;
+                display: inline-block;
+                transform-origin: 70% 70%;
+                animation-timing-function: cubic-bezier(0.36, 0.45, 0.63, 0.53);
+              }
+              
+              @keyframes wave-animation {
+                0% {
+                  transform: rotate(15deg);
+                }
+                50% {
+                  transform: rotate(70deg);
+                }
+                75% {
+                  transform: rotate(-15deg);
+                }
+                100% {
+                  transform: rotate(15deg);
+                }
+              }
+
+            .colorText{
+                color: var(--purple);
+            }
         }
 
         .text{

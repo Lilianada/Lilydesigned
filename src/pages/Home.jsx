@@ -13,7 +13,7 @@ export default function Home() {
       initial={{ opacity: 0.5 }}
       animate={{ opacity: 1 }}
       exist={{ opacity: 0 }}
-      transition={{ duration: 0.3 }}
+      transition={{ duration: 0.5 }}
     >
       <Helmet>
         <title>Home</title>
@@ -27,16 +27,17 @@ export default function Home() {
         </div>
         <div className="profileDescription">
           <h3 className="title">
-            Hi - I'm Lilian, a Frontend developer for high impact organizations.
+            Oh Hey there <span className="wave">👋</span>
+            <br/>
+            I'm Lilian, a <span className="colorText"> Frontend developer</span> for high impact organizations.
           </h3>
           <p className="text">
             😊 Pronouns: She/her
             <br/>
             As a Frontend Developer, I am mostly interested in bridging the gap between organizations,
             businesses, and their users by creating user-friendly UI components
-            and bringing products to life. I am currently volunteering as a
-            Product Manager at Building Bloques where I oversee all of the
-            products in the company's portfolio.
+            and bringing products to life. I am currently working remotely as a
+            Frontend Developer at Supreme Marketing Limited.
           </p>
         </div>
         <a href={Resume} download className="btnPrimary">
