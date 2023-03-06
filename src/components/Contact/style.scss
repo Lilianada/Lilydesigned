@@ -1,12 +1,12 @@
 .contactSection{
     display: flex;
     flex-direction: column;
-    margin: 5rem auto 3rem;
+    margin: 5rem auto 0rem;
     align-items: center;
     justify-content: flex-start;
     text-align: center;
     width: 90%;
-    height: calc(100vh - 18rem);
+    // height: calc(100vh - 18rem);
 
 
     @media screen and (min-width: 768px){

@@ -31,6 +31,9 @@
     }
 
     .profileDescription{
+        display: flex;
+        flex-direction: column;
+
         .title{
             font-family: var(--font-head);
             font-size: var(--thirtyTwo);
@@ -39,6 +42,8 @@
             text-align: center;
             color: var(--white);
             margin-top: 1.5rem;
+            max-width: 35rem;
+            align-self: center;
 
             .wave {
                 animation: wave-animation 2.5s infinite;

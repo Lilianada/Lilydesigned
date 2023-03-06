@@ -17,7 +17,7 @@ function FiverrSellerWidget() {
   }, []);
 
   return (
-    <div itemScope itemType='http://schema.org/Person' className='fiverr-seller-widget' style={{ display: 'inline-block' }}>
+    <div itemScope itemType='http://schema.org/Person' className='fiverr-seller-widget' style={{ display: 'inline-block', marginTop: '2rem' }}>
       <a itemProp='url' href='https://www.fiverr.com/liliancodess' rel='nofollow' target='_blank' style={{ display: 'inline-block' }}>
         <div className='fiverr-seller-content' id='fiverr-seller-widget-content-aa5dc2a3-61da-4123-80b9-c4b05e970b1d' itemProp='contentURL' style={{ display: 'none' }}></div>
         <div id='fiverr-widget-seller-data' style={{ display: 'none' }}>
