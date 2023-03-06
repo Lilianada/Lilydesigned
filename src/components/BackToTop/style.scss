@@ -1,0 +1,80 @@
+.backToTop{
+    position: relative;
+  
+  .iconPosition{
+    position: absolute;
+    bottom: 2rem;
+    right: 1.5rem;
+    z-index: 20;
+
+    @media screen and (min-width: 500px){
+      right: 3.5rem;
+    }
+
+    @media screen and (min-width: 900px){
+      right: 8rem;
+    }
+    
+    @media screen and (min-width: 1024px){
+      right: 2rem;
+    }
+  }
+
+  .iconStyle{
+    display: grid;
+    place-items: center;
+    height: 52px;
+    width: 52px;
+    background-color: var(--purple);
+    border-radius: 50%;
+    color: var(--white);
+    cursor: pointer;
+    -webkit-animation: scrollTop 5s ease-in-out infinite;
+            animation: scrollTop 5s ease-in-out infinite;
+    transition: all .5s ease-in-out;
+    
+    &:hover{
+      -webkit-animation: none;
+              animation: none;
+      background: var(--purple);
+      color: var(--black);
+    }
+  }
+
+  @-webkit-keyframes scrollTop {
+    0%{
+      transform: translateY(0px);
+    }
+    25%{
+      transform: translateY(10px);
+    }
+    50%{
+      transform: translateY(0px);
+    }
+    75%{
+      transform: translateY(-10px);
+    }
+    100%{
+      transform: translateY(0px);
+    }
+  }
+
+  @keyframes scrollTop {
+    0%{
+      transform: translateY(0px);
+    }
+    25%{
+      transform: translateY(10px);
+    }
+    50%{
+      transform: translateY(0px);
+    }
+    75%{
+      transform: translateY(-10px);
+    }
+    100%{
+      transform: translateY(0px);
+    }
+  }
+
+}

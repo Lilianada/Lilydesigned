@@ -5,7 +5,7 @@ import "./style.scss";
 export default function ContactPage() {
   return (
     <section className="contactSection">
-        <h3 className="title">Contact Me</h3>
+        <h3 className="title coloredText">Contact Me</h3>
         <p className="text">
           I am very much open to Full-time Frontend Developer roles or Product Manager roles both remote and on-site.
           You can also reach me on Fiverr using the badge below.

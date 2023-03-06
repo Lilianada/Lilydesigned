@@ -6,11 +6,13 @@
     justify-content: flex-start;
     text-align: center;
     width: 90%;
-    // height: calc(100vh - 18rem);
-
 
     @media screen and (min-width: 768px){
         width: 35rem;
+    }
+
+    .coloredText{
+        color: var(--purple);
     }
     
     .socialLinks{
