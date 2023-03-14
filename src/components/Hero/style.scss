@@ -6,6 +6,7 @@
     justify-content: flex-start;
     text-align: center;
     width: 90%;
+    max-width: 60rem;
     
     @media screen and (min-height: 800px) {
         margin: 4rem auto 3rem;
@@ -142,7 +143,7 @@
     .btnPrimary{
         width: fit-content;
         height: 3rem;
-        margin-top: 1rem;
+        margin-top: 1.5rem;
         margin-bottom: .75rem;
     }
 }
