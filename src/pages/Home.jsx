@@ -39,16 +39,11 @@ export default function Home() {
               <p className="text">
                 Pronouns: She/her
                 <br />
-                As a Frontend Developer, I am mostly interested in bridging the gap between organizations, businesses, and their users by creating user-friendly UI components and bringing products to life. I am currently working remotely as a Frontend Developer at Supreme Marketing Limited.
-              </p>
-              <p className="text">
+                I am a Frontend Developer who is mostly interested in bridging the gap between organizations, businesses, and their users by creating user-friendly UI components and bringing products to life. I am currently working remotely as a Frontend Developer at Supreme Marketing Limited.
                 Creating clean interfaces and thoughtful user experiences are my strengths - bringing them to life is where I stand out.
               </p>
               <p className="text">
                 I am an open-minded and communicative person who cares a lot about details. I enjoy my work and have passion for everything related to it.
-              </p>
-              <p className="text">
-                I enjoy my work and have passion for everything related to it.
               </p>
               <a href={Resume} download className="btnPrimary">
                 Curriculum Vitae
@@ -65,13 +60,13 @@ export default function Home() {
                 <div className="column">
                   <div className="labels">
                     <div className="labelTitle">Frontend Development</div>
-                    <div className="labelValue">React, Vue.js, Flutter, Typescript
+                    <div className="labelValue">React.js, Vue.js, Flutter, Typescript
                     </div>
                     <div className="labelValue">
                     </div>
-                    <div className="labelValue">Firebase, Express.js
+                    <div className="labelValue">Firebase, Context API
                     </div>
-                    <div className="labelValue">HTML, CSS, Tailwind
+                    <div className="labelValue">HTML, CSS, Tailwind, SCSS, Styled-components
                     </div>
                   </div>
                 </div>

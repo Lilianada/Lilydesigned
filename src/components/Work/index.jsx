@@ -39,7 +39,7 @@ export default function Work() {
                 rel="noreferrer"
                 aria-disabled
               >
-                In Progress
+                View Site
               </a>
               <a
                 className="btnSecondary"
@@ -59,7 +59,7 @@ export default function Work() {
         <div className="workWrap">
           <div className="project">
             <p className="projectName">FunConnect | January 2023 </p>
-            <p className="projectLang">HTML/CSS</p>
+            <p className="projectLang">React/SCSS</p>
             <p className="projectDetails">
             Funconnect is a modern way of exploring fun places, a social way to connect like-minds, and a space to share experiences.Discover new activities and places to visit. Unlock a world of possibilities with the app. 
             <br/>Although this is currently in progress, you can still check out the pages available on the netlify hosted site.
@@ -174,7 +174,7 @@ export default function Work() {
                 rel="noreferrer"
                 aria-disabled
               >
-                In Progress
+                View Site
               </a>
               <a
                 className="btnSecondary"
