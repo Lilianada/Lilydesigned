@@ -7,7 +7,7 @@ export default function ContactPage() {
     <section className="contactSection">
         <h3 className="title coloredText">Contact Me</h3>
         <p className="text">
-          I am very much open to Full-time Frontend Developer roles or Product Manager roles both remote and on-site.
+          For collaborations, job opportunities, or just to say hi, feel free to reach out to me using the email linked.
           You can also reach me on Fiverr using the badge below.
         </p>
         <br/>
