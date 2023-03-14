@@ -2,7 +2,6 @@ import { motion } from "framer-motion";
 import React from "react";
 import { Helmet } from "react-helmet-async";
 import { ContactPage, Footer, Header } from "../components";
-import FiverrSellerWidget from "../components/FiverWidget";
 
 export default function Contact() {
   return (
@@ -20,7 +19,6 @@ export default function Contact() {
       </Helmet>
       <Header/>
       <ContactPage />
-      <FiverrSellerWidget/>
       <Footer/>
     </motion.main>
   );
