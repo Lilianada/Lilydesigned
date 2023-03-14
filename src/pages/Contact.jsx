@@ -2,11 +2,12 @@ import { motion } from "framer-motion";
 import React from "react";
 import { Helmet } from "react-helmet-async";
 import { ContactPage, Footer, Header } from "../components";
+import FiverrSellerWidget from "../components/FiverWidget";
 
 export default function Contact() {
   return (
     <motion.main
-    className="mainWrapper"
+    className="mainWrap"
       initial={{ opacity: 0.5 }}
       animate={{ opacity: 1 }}
       exist={{ opacity: 0 }}
@@ -19,6 +20,7 @@ export default function Contact() {
       </Helmet>
       <Header/>
       <ContactPage />
+      <FiverrSellerWidget/>
       <Footer/>
     </motion.main>
   );

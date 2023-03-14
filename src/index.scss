@@ -243,6 +243,13 @@ button {
     overflow-x: hidden;
 }
 
+.mainWrap{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+}
+
 .wrapper {
     height: 100vh;
     overflow: scroll;

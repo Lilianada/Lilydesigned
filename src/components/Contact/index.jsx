@@ -13,7 +13,6 @@ export default function ContactPage() {
         <br/>
         <u><a href="mailto:lilianokeke.ca@gmail.com">Lilianokeke.ca@gmail.com</a></u>
         
-      <FiverrSellerWidget/>
     </section>
   );
 }
