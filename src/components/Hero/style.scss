@@ -128,6 +128,8 @@
                             .labelTitle{
                                 color: var(--purple);
                                 line-height: 2.5rem;
+                                font-weight: 600;
+                                font-size: var(--eighteen);
                             }
 
                             .labelValue{
@@ -145,5 +147,10 @@
         height: 3rem;
         margin-top: 1.5rem;
         margin-bottom: .75rem;
+        background: transparent;
+
+        &:hover{
+            transform: scale(.95, 1);
+        }
     }
 }
