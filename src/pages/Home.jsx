@@ -9,7 +9,7 @@ import "../components/Hero/style.scss";
 export default function Home() {
   return (
     <motion.main
-      className="mainWrap"
+      className="homeWrap"
       initial={{ opacity: 0.5 }}
       animate={{ opacity: 1 }}
       exist={{ opacity: 0 }}
