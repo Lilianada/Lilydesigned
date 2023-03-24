@@ -24,6 +24,7 @@ export default function Work() {
 
       <div className="workList">
         <div className="workWrap">
+          <div className="projectImage">
           <div className="project">
             <p className="projectName">The Video Game Vault | February 2023 </p>
             <p className="projectLang">HTML/CSS</p>
@@ -52,7 +53,6 @@ export default function Work() {
               </a>
             </div>
           </div>
-          <div className="projectImage">
             <img src={Pic10} alt="Project Screenshot" />
           </div>
         </div>
