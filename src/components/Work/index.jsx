@@ -12,6 +12,7 @@ import Pic10 from "../../assets/images/Thevideogamevault.png";
 import Pic11 from "../../assets/images/Funconnect.png";
 import "./style.scss";
 
+
 export default function Work() {
   return (
     <section className="workSection">
@@ -23,9 +24,8 @@ export default function Work() {
         </div>
 
       <div className="workList">
-        <div className="workWrap">
-          <div className="projectImage">
-          <div className="project">
+        <div className="workWrap ten">
+          <div className="projectDescription">
             <p className="projectName">The Video Game Vault | February 2023 </p>
             <p className="projectLang">HTML/CSS</p>
             <p className="projectDetails">
@@ -53,11 +53,9 @@ export default function Work() {
               </a>
             </div>
           </div>
-            <img src={Pic10} alt="Project Screenshot" />
-          </div>
         </div>
-        <div className="workWrap">
-          <div className="project">
+        <div className="workWrap eleven">
+          <div className="projectDescription">
             <p className="projectName">FunConnect | January 2023 </p>
             <p className="projectLang">React/SCSS</p>
             <p className="projectDetails">
@@ -85,12 +83,9 @@ export default function Work() {
               </a>
             </div>
           </div>
-          <div className="projectImage">
-            <img src={Pic11} alt="Project Screenshot" />
-          </div>
         </div>
-        <div className="workWrap">
-          <div className="project">
+        <div className="workWrap seven">
+          <div className="projectDescription">
             <p className="projectName">FatBossGambling | January 2023 </p>
             <p className="projectLang">HTML/CSS</p>
             <p className="projectDetails">
@@ -118,13 +113,10 @@ export default function Work() {
               </a>
             </div>
           </div>
-          <div className="projectImage">
-            <img src={Pic7} alt="Project Screenshot" />
-          </div>
         </div>
 
-        <div className="workWrap">
-          <div className="project">
+        <div className="workWrap four">
+          <div className="projectDescription">
             <p className="projectName">BeBlended | July 2022 </p>
             <p className="projectLang">React/SCSS</p>
             <p className="projectDetails">
@@ -153,13 +145,10 @@ export default function Work() {
               </a>
             </div>
           </div>
-          <div className="projectImage">
-            <img src={Pic4} alt="Project Screenshot" />
-          </div>
         </div>
 
-        <div className="workWrap">
-          <div className="project">
+        <div className="workWrap two">
+          <div className="projectDescription">
             <p className="projectName">Coloring Cultures | May 2022 </p>
             <p className="projectLang">React/CSS</p>
             <p className="projectDetails">
@@ -187,13 +176,10 @@ export default function Work() {
               </a>
             </div>
           </div>
-          <div className="projectImage">
-            <img src={Pic2} alt="Project Screenshot" />
-          </div>
         </div>
         
-        <div className="workWrap">
-          <div className="project">
+        <div className="workWrap three">
+          <div className="projectDescription">
             <p className="projectName">Cloudnimi | March 2022 </p>
             <p className="projectLang">React/CSS</p>
             <p className="projectDetails">
@@ -221,13 +207,10 @@ export default function Work() {
               </a>
             </div>
           </div>
-          <div className="projectImage">
-            <img src={Pic3} alt="Project Screenshot" />
-          </div>
         </div>
 
-        <div className="workWrap">
-          <div className="project">
+        <div className="workWrap one">
+          <div className="projectDescription">
             <p className="projectName">Journals Your Way | Feb 2022 </p>
             <p className="projectLang">WordPress/Elementor</p>
             <p className="projectDetails">
@@ -255,13 +238,10 @@ export default function Work() {
               </a>
             </div>
           </div>
-          <div className="projectImage">
-            <img src={Pic1} alt="Project Screenshot" />
-          </div>
         </div>
 
-        <div className="workWrap">
-          <div className="project">
+        <div className="workWrap five">
+          <div className="projectDescription">
             <p className="projectName">Freedom Action Now | 2021 </p>
             <p className="projectLang">CMS Made Simple</p>
             <p className="projectDetails">
@@ -289,9 +269,6 @@ export default function Work() {
               </a>
             </div>
           </div>
-          <div className="projectImage">
-            <img src={Pic5} alt="Project Screenshot" />
-          </div>
         </div>
       </div>
     
@@ -301,8 +278,8 @@ export default function Work() {
             </p>
         </div>
       <div className="workList">
-        <div className="workWrap">
-          <div className="project">
+        <div className="workWrap eight">
+          <div className="projectDescription">
             <p className="projectName">GitHub API Project | January 2023 </p>
             <p className="projectLang">React/CSS</p>
             <p className="projectDetails">
@@ -329,13 +306,10 @@ export default function Work() {
               </a>
             </div>
           </div>
-          <div className="projectImage">
-            <img src={Pic8} alt="Project Screenshot" />
-          </div>
         </div>
 
-        <div className="workWrap">
-          <div className="project">
+        <div className="workWrap nine">
+          <div className="projectDescription">
             <p className="projectName">React Calculator | October 2022 </p>
             <p className="projectLang">React/CSS</p>
             <p className="projectDetails">
@@ -362,13 +336,10 @@ export default function Work() {
               </a>
             </div>
           </div>
-          <div className="projectImage">
-            <img src={Pic9} alt="Project Screenshot" />
-          </div>
         </div>
 
-        <div className="workWrap">
-          <div className="project">
+        <div className="workWrap six">
+          <div className="projectDescription">
             <p className="projectName">Github User Search | March 2022 </p>
             <p className="projectLang">React/Styled-components</p>
             <p className="projectDetails">
@@ -395,9 +366,6 @@ export default function Work() {
                 Visit Github
               </a>
             </div>
-          </div>
-          <div className="projectImage">
-            <img src={Pic6} alt="Project Screenshot" />
           </div>
         </div>
       </div>

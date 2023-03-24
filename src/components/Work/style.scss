@@ -49,42 +49,39 @@
         flex-direction: column;
 
         .workWrap{
-            display: flex;
-            flex-direction: column-reverse;
-            gap: 1.5rem;
             margin-bottom: 3rem;
     
             @media screen and (min-width: 800px) {
-                display: grid;
-                grid-template-columns: 56% 40%;
-                margin: 4rem auto;
-                gap: 3rem;
                 width: 70%;
                 margin-bottom: 2rem;
                 
             }
-    
-            .project{
+            
+            
+            .projectDescription{
                 display: flex;  
                 flex-direction: column;
-    
+                padding: 1rem;
+                background: rgb(0 0 0 / 79%);
+                margin: 1rem;
+                
                 .projectName{
                     text-transform: uppercase;
                     font-size: var(--eighteen);
                     font-weight: 600;
                 }
-
+                
                 .projectLang{
                     font-size: var(--sixteen);
                     color: var(--purple);
                     margin-bottom: .25rem;
                 }
-    
+                
                 .projectDetails{
                     font-size: var(--sixteen);
                     margin-bottom: 1rem;
                 }
-    
+                
                 .btnPrimary{
                     width: 8rem;
                     height: 3rem;
@@ -94,7 +91,7 @@
                     border-radius: 16px;
                     font-size: var(--eighteen);
                     transition: all 0.3s;
-    
+                    
                     &:hover {
                         transform: scale(.9, .9);
                     }
@@ -110,20 +107,82 @@
                     font-size: var(--eighteen);
                     margin-left: 1rem;
                     transition: all 0.3s;
-    
+                    
                     &:hover {
                         transform: scale(.9, .9);
                     }
                 }
-            }
-    
-            .projectImage{
-                height: fit-content; background-image: url(../../assets/images/Journalsyourway.png);
-    
+                
                 @media screen and (min-width: 800px) {
                     height: 100%;
                 }
             }
+        }
+        .one{
+            background-image: url(../../assets/images/Journalsyourway.png);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;    
+        }
+        .two{
+            background-image: url(../../assets/images/coloringcultures.png);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+        .three{
+            background-image: url(../../assets/images/C1oudnimi.png);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+        .four{
+            background-image: url(../../assets/images/BeBlended.png);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+        .five{
+            background-image: url(../../assets/images/FreedomAction.png);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+        .six{
+            background-image: url(../../assets/images/GithubUserSearch.png);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+        .seven{
+            background-image: url(../../assets/images/Fatbossgambling.png);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+        .eight{
+            background-image: url(../../assets/images/Github-repo-display.png);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+        .nine{
+            background-image: url(../../assets/images/React-Calculator.png);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+        .ten{
+            background-image: url(../../assets/images/Thevideogamevault.png);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+        .eleven{
+            background-image: url(../../assets/images/Funconnect.png);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
         }
     }
 
