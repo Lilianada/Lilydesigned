@@ -25,246 +25,113 @@ export default function Projects() {
         </p>
       </div>
       <div className="projectList">
-
-        <a className="projectContainer" href="https://the-videogame-vault.netlify.app/">
+        <div
+          className="projectContainer"
+        >
           <div className="contentContainer">
             <img
               className="projectImage"
-              src={Pic2}
-              alt="Screenshot of the website of Ackee"
+              src={Pic10}
+              alt="Screenshot of the website of The Video Game Vault"
             />
             <h3 className="contentTitle">
-                The Video Game Vault
-              <a className="arrowContainer" href="https://the-videogame-vault.netlify.app/">
+              The Video Game Vault
+              <a
+                className="arrowContainer"
+                href="https://the-videogame-vault.netlify.app/"
+              >
                 {" "}
-                <BsArrowUpRight size={18} />{" "}
+                <BsArrowUpRight size={18} fill='#acf6f0'/>{" "}
               </a>
             </h3>
-            <p className="contentText">
-            The Video Game Vault is a simple website for a gamer where he has all his youtube videos linked as well as articles about the games he plays. The website is also a place where he can share his thoughts about the games he wants to play.
-            </p>
+            <div className="contentText">
+              <span className="lang">HTML/SCSS</span>
+              <p className="text">
+              The Video Game Vault is a simple website for a gamer where he has
+              all his youtube videos linked as well as articles about the games
+              he plays.
+              </p>
+            </div>
           </div>
-        </a>
+        </div>
 
-        <a className="projectContainer" href="https://ackee.electerious.com">
+        <div className="projectContainer">
           <div className="contentContainer">
             <img
               className="projectImage"
-              src={Pic2}
-              alt="Screenshot of the website of Ackee"
+              src={Pic11}
+              alt="Screenshot of the website of Funconnect"
             />
             <h3 className="contentTitle">
-              Ackee
-              <span className="arrowContainer">
+              Funconnect
+              <a className="arrowContainer" href="https://funconnect.app/">
                 {" "}
-                <BsArrowUpRight size={18} />{" "}
-              </span>
+                <BsArrowUpRight size={18} fill='#FFE285'/>{" "}
+              </a>
             </h3>
-            <p className="contentText">
-              Self-hosted, Node.js based analytics tool for those who care about
-              privacy. Ackee analyses the traffic of your websites and provides
-              useful statistics in a minimal interface.
-            </p>
+            <div className="contentText">
+              <span className="lang">REACT/SCSS</span>
+              <p className="text">
+                Funconnect is a modern way of exploring fun places, a social way
+                to connect like-minds, and a space to share experiences.Discover
+                new activities and places to visit. Unlock a world of
+                possibilities with the app.
+              </p>
+            </div>
           </div>
-        </a>
+        </div>
 
-        <a className="projectContainer" href="https://ackee.electerious.com">
+        <div className="projectContainer">
           <div className="contentContainer">
             <img
               className="projectImage"
-              src={Pic2}
-              alt="Screenshot of the website of Ackee"
+              src={Pic7}
+              alt="Screenshot of the website of FatBossGambling"
             />
             <h3 className="contentTitle">
-              Ackee
-              <span className="arrowContainer">
+            FatBossGambling
+              <a className="arrowContainer" href="https://fatbosskgasyno.pl/">
                 {" "}
-                <BsArrowUpRight size={18} />{" "}
-              </span>
+                <BsArrowUpRight size={18} fill="#F2CBF6" />{" "}
+              </a>
             </h3>
-            <p className="contentText">
-              Self-hosted, Node.js based analytics tool for those who care about
-              privacy. Ackee analyses the traffic of your websites and provides
-              useful statistics in a minimal interface.
-            </p>
+            <div className="contentText">
+              <span className="lang">HTML/CSS/AMP</span>
+              <p className="text">
+              FatBossGambling is an online Casino. State-of-the-art platform that offers a wide selection of exciting casino games, all powered by top-notch software. They've got all your favourites, from classic slots and
+              table games to the latest releases.
+              </p>
+              </div>
           </div>
-        </a>
+        </div>
 
-        <a className="projectContainer" href="https://ackee.electerious.com">
+        <div className="projectContainer">
           <div className="contentContainer">
             <img
               className="projectImage"
-              src={Pic2}
-              alt="Screenshot of the website of Ackee"
+              src={Pic4}
+              alt="Screenshot of the website of BeBlended"
             />
             <h3 className="contentTitle">
-              Ackee
-              <span className="arrowContainer">
+            BeBlended
+              <a className="arrowContainer" href="https://github.com/lilianada/BeBlended">
                 {" "}
-                <BsArrowUpRight size={18} />{" "}
-              </span>
+                <BsArrowUpRight size={18} fill="#F2CBF6" />{" "}
+              </a>
             </h3>
-            <p className="contentText">
-              Self-hosted, Node.js based analytics tool for those who care about
-              privacy. Ackee analyses the traffic of your websites and provides
-              useful statistics in a minimal interface.
-            </p>
+            <div className="contentText">
+              <span className="lang">REACT/SCSS</span>
+              <p className="text">
+              Whether you’re looking for a new hairstylist or want to become one
+              yourself, BeBlended provides you with both options fast and easy
+              within Canada.
+              </p>
+              </div>
           </div>
-        </a>
+        </div>
 
-        <a className="projectContainer" href="https://ackee.electerious.com">
-          <div className="contentContainer">
-            <img
-              className="projectImage"
-              src={Pic2}
-              alt="Screenshot of the website of Ackee"
-            />
-            <h3 className="contentTitle">
-              Ackee
-              <span className="arrowContainer">
-                {" "}
-                <BsArrowUpRight size={18} />{" "}
-              </span>
-            </h3>
-            <p className="contentText">
-              Self-hosted, Node.js based analytics tool for those who care about
-              privacy. Ackee analyses the traffic of your websites and provides
-              useful statistics in a minimal interface.
-            </p>
-          </div>
-        </a>
-
-        <a className="projectContainer" href="https://ackee.electerious.com">
-          <div className="contentContainer">
-            <img
-              className="projectImage"
-              src={Pic2}
-              alt="Screenshot of the website of Ackee"
-            />
-            <h3 className="contentTitle">
-              Ackee
-              <span className="arrowContainer">
-                {" "}
-                <BsArrowUpRight size={18} />{" "}
-              </span>
-            </h3>
-            <p className="contentText">
-              Self-hosted, Node.js based analytics tool for those who care about
-              privacy. Ackee analyses the traffic of your websites and provides
-              useful statistics in a minimal interface.
-            </p>
-          </div>
-        </a>
-
-        <a className="projectContainer" href="https://ackee.electerious.com">
-          <div className="contentContainer">
-            <img
-              className="projectImage"
-              src={Pic2}
-              alt="Screenshot of the website of Ackee"
-            />
-            <h3 className="contentTitle">
-              Ackee
-              <span className="arrowContainer">
-                {" "}
-                <BsArrowUpRight size={18} />{" "}
-              </span>
-            </h3>
-            <p className="contentText">
-              Self-hosted, Node.js based analytics tool for those who care about
-              privacy. Ackee analyses the traffic of your websites and provides
-              useful statistics in a minimal interface.
-            </p>
-          </div>
-        </a>
-
-        <a className="projectContainer" href="https://ackee.electerious.com">
-          <div className="contentContainer">
-            <img
-              className="projectImage"
-              src={Pic2}
-              alt="Screenshot of the website of Ackee"
-            />
-            <h3 className="contentTitle">
-              Ackee
-              <span className="arrowContainer">
-                {" "}
-                <BsArrowUpRight size={18} />{" "}
-              </span>
-            </h3>
-            <p className="contentText">
-              Self-hosted, Node.js based analytics tool for those who care about
-              privacy. Ackee analyses the traffic of your websites and provides
-              useful statistics in a minimal interface.
-            </p>
-          </div>
-        </a>
-
-        <a className="projectContainer" href="https://ackee.electerious.com">
-          <div className="contentContainer">
-            <img
-              className="projectImage"
-              src={Pic2}
-              alt="Screenshot of the website of Ackee"
-            />
-            <h3 className="contentTitle">
-              Ackee
-              <span className="arrowContainer">
-                {" "}
-                <BsArrowUpRight size={18} />{" "}
-              </span>
-            </h3>
-            <p className="contentText">
-              Self-hosted, Node.js based analytics tool for those who care about
-              privacy. Ackee analyses the traffic of your websites and provides
-              useful statistics in a minimal interface.
-            </p>
-          </div>
-        </a>
-
-        <a className="projectContainer" href="https://ackee.electerious.com">
-          <div className="contentContainer">
-            <img
-              className="projectImage"
-              src={Pic2}
-              alt="Screenshot of the website of Ackee"
-            />
-            <h3 className="contentTitle">
-              Ackee
-              <span className="arrowContainer">
-                {" "}
-                <BsArrowUpRight size={18} />{" "}
-              </span>
-            </h3>
-            <p className="contentText">
-              Self-hosted, Node.js based analytics tool for those who care about
-              privacy. Ackee analyses the traffic of your websites and provides
-              useful statistics in a minimal interface.
-            </p>
-          </div>
-        </a>
-
-        <a className="projectContainer" href="https://ackee.electerious.com">
-          <div className="contentContainer">
-            <img
-              className="projectImage"
-              src={Pic2}
-              alt="Screenshot of the website of Ackee"
-            />
-            <h3 className="contentTitle">
-              Ackee
-              <span className="arrowContainer">
-                {" "}
-                <BsArrowUpRight size={18} />{" "}
-              </span>
-            </h3>
-            <p className="contentText">
-              Self-hosted, Node.js based analytics tool for those who care about
-              privacy. Ackee analyses the traffic of your websites and provides
-              useful statistics in a minimal interface.
-            </p>
-          </div>
-        </a>
+        
+        
       </div>
     </section>
   );
