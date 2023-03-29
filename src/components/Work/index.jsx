@@ -17,9 +17,9 @@ export default function Work() {
   return (
     <section className="workSection">
         <div className="head">
-            <h3 className="title">Portfolio</h3>
+            <h3 className="title">Projects</h3>
             <p className="text">
-                Here are some of my most recent projects from the past year:
+                I am constantly exploring new technologies and creative designs to develop projects that build on and go beyond my existing knowledge.
             </p>
         </div>
 
