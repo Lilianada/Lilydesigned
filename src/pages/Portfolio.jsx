@@ -3,6 +3,7 @@ import React from "react";
 import { Helmet } from "react-helmet-async";
 import { Footer, Header, Work } from "../components";
 import BackToTop from "../components/BackToTop";
+import Projects from "../components/Projects";
 
 export default function Portfolio() {
   return (
@@ -19,7 +20,8 @@ export default function Portfolio() {
         <link rel="canonical" href="/portfolio" />
       </Helmet>
       <Header/>
-      <Work />
+      {/* <Work /> */}
+      <Projects/>
       <Footer/>
       <BackToTop/>
     </motion.main>

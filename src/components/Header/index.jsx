@@ -54,7 +54,7 @@ export default function Header() {
                 to="/portfolio"
                 className={active === 2 ? "activeLink" : "navLink"}
               >
-                Portfolio
+                Projects
               </Link>
             </motion.li>
             <motion.li
