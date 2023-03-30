@@ -20,8 +20,8 @@ export default function Portfolio() {
         <link rel="canonical" href="/portfolio" />
       </Helmet>
       <Header/>
-      {/* <Work /> */}
       <Projects/>
+      <Work />
       <Footer/>
       <BackToTop/>
     </motion.main>
