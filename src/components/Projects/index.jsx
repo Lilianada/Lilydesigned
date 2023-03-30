@@ -25,9 +25,7 @@ export default function Projects() {
         </p>
       </div>
       <div className="projectList">
-        <div
-          className="projectContainer"
-        >
+        <div className="projectContainer">
           <div className="contentContainer">
             <img
               className="projectImage"
@@ -35,21 +33,21 @@ export default function Projects() {
               alt="Screenshot of the website of The Video Game Vault"
             />
             <h3 className="contentTitle">
-              The Video Game Vault
+              VideoGameVault
               <a
                 className="arrowContainer"
                 href="https://the-videogame-vault.netlify.app/"
               >
                 {" "}
-                <BsArrowUpRight size={18} fill='#acf6f0'/>{" "}
+                <BsArrowUpRight size={18} fill="#acf6f0" />{" "}
               </a>
             </h3>
             <div className="contentText">
               <span className="lang">HTML/SCSS</span>
               <p className="text">
-              The Video Game Vault is a simple website for a gamer where he has
-              all his youtube videos linked as well as articles about the games
-              he plays.
+                The Video Game Vault is a simple website for a gamer where he
+                has all his youtube videos linked as well as articles about the
+                games he plays.
               </p>
             </div>
           </div>
@@ -66,7 +64,7 @@ export default function Projects() {
               Funconnect
               <a className="arrowContainer" href="https://funconnect.app/">
                 {" "}
-                <BsArrowUpRight size={18} fill='#FFE285'/>{" "}
+                <BsArrowUpRight size={18} fill="#FFE285" />{" "}
               </a>
             </h3>
             <div className="contentText">
@@ -89,19 +87,21 @@ export default function Projects() {
               alt="Screenshot of the website of FatBossGambling"
             />
             <h3 className="contentTitle">
-            FatBossGambling
+              FatBossGambling
               <a className="arrowContainer" href="https://fatbosskgasyno.pl/">
                 {" "}
-                <BsArrowUpRight size={18} fill="#F2CBF6" />{" "}
+                <BsArrowUpRight size={18} fill="#f7c0cf" />{" "}
               </a>
             </h3>
             <div className="contentText">
               <span className="lang">HTML/CSS/AMP</span>
               <p className="text">
-              FatBossGambling is an online Casino. State-of-the-art platform that offers a wide selection of exciting casino games, all powered by top-notch software. They've got all your favourites, from classic slots and
-              table games to the latest releases.
+                FatBossGambling is an online Casino. State-of-the-art platform
+                that offers a wide selection of exciting casino games, all
+                powered by top-notch software. They've got all your favourites,
+                from classic slots and table games to the latest releases.
               </p>
-              </div>
+            </div>
           </div>
         </div>
 
@@ -113,8 +113,11 @@ export default function Projects() {
               alt="Screenshot of the website of BeBlended"
             />
             <h3 className="contentTitle">
-            BeBlended
-              <a className="arrowContainer" href="https://github.com/lilianada/BeBlended">
+              BeBlended
+              <a
+                className="arrowContainer"
+                href="https://github.com/lilianada/BeBlended"
+              >
                 {" "}
                 <BsArrowUpRight size={18} fill="#F2CBF6" />{" "}
               </a>
@@ -122,16 +125,89 @@ export default function Projects() {
             <div className="contentText">
               <span className="lang">REACT/SCSS</span>
               <p className="text">
-              Whether you’re looking for a new hairstylist or want to become one
-              yourself, BeBlended provides you with both options fast and easy
-              within Canada.
+                Whether you’re looking for a new hairstylist or want to become one yourself, BeBlended provides you with both options fast and easy within Canada.
               </p>
-              </div>
+            </div>
           </div>
         </div>
 
-        
-        
+        <div className="projectContainer">
+          <div className="contentContainer">
+            <img
+              className="projectImage"
+              src={Pic2}
+              alt="Screenshot of the website of Coloring Cultures"
+            />
+            <h3 className="contentTitle">
+              Coloring Cultures
+              <div className="arrowContainer">
+                {" "}
+                <BsArrowUpRight size={18} fill="#f7d8c0" />{" "}
+              </div>
+            </h3>
+            <div className="contentText">
+              <a href="https://coloringcultures.app" className="lang">
+                REACT/SCSS
+              </a>
+              <p className="text">
+                A simple website for a mobile game company that provides more information about the company as well as its terms and conditions.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div className="projectContainer">
+          <div className="contentContainer">
+            <img
+              className="projectImage"
+              src={Pic3}
+              alt="Screenshot of the website of Cloudnimi"
+            />
+            <h3 className="contentTitle">
+              Cloudnimi
+              <a
+                className="arrowContainer"
+                href="https://cloudnimi.netlify.app/"
+              >
+                {" "}
+                <BsArrowUpRight size={18} fill="#c0cff7" />{" "}
+              </a>
+            </h3>
+            <div className="contentText">
+              <span className="lang">REACT/CSS</span>
+              <p className="text">
+                A company's website that helps their clients build businesses by
+                designing & implementing production-grade business needs.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div className="projectContainer">
+          <div className="contentContainer">
+            <img
+              className="projectImage"
+              src={Pic1}
+              alt="Screenshot of the website of Cloudnimi"
+            />
+            <h3 className="contentTitle">
+              Journals Your Way
+              <a
+                className="arrowContainer"
+                href="https://journalsyourway.com"
+              >
+                {" "}
+                <BsArrowUpRight size={18} fill="#c0cff7" />{" "}
+              </a>
+            </h3>
+            <div className="contentText">
+              <span className="lang">WordPress/Elementor</span>
+              <p className="text">
+              An eCommerce store that focuses on selling journals and note books to people across the US.
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
   );
