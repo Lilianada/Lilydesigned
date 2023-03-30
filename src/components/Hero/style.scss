@@ -148,6 +148,8 @@
         margin-top: 1.5rem;
         margin-bottom: .75rem;
         background: transparent;
+        border: 2px solid var(--pink);
+        color: var(--white);
 
         &:hover{
             transform: scale(.95, 1);

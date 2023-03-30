@@ -182,7 +182,7 @@ export default function Projects() {
             </div>
           </div>
         </div>
-
+ 
         <div className="projectContainer">
           <div className="contentContainer">
             <img
@@ -197,7 +197,7 @@ export default function Projects() {
                 href="https://journalsyourway.com"
               >
                 {" "}
-                <BsArrowUpRight size={18} fill="#c0cff7" />{" "}
+                <BsArrowUpRight size={18} fill="#acf6f0" />{" "}
               </a>
             </h3>
             <div className="contentText">
