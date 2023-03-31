@@ -12,24 +12,31 @@ export default function Work() {
         </p>
       </div>
       <div className="workList">
-        <div className="workWrap eight">
+        <div className="workWrap">
           <div className="projectDescription">
             <a href="https://github-repo-display.netlify.app/" className="projectName">GitHub API Project</a>
             <p className="projectLang">React/CSS</p>
           </div>
         </div>
 
-        <div className="workWrap nine">
+        <div className="workWrap">
           <div className="projectDescription">
             <a href="https://lily-react-calculator.vercel.app/" className="projectName">React Calculator </a>
             <p className="projectLang">React/CSS</p>
           </div>
         </div>
 
-        <div className="workWrap six">
+        <div className="workWrap">
           <div className="projectDescription">
             <a href="https://github-user-profile-search.netlify.app/" className="projectName">Github User Search </a>
             <p className="projectLang">React/Styled-components</p>
+          </div>
+        </div>
+
+        <div className="workWrap">
+          <div className="projectDescription">
+            <a href="https://github-user-profile-search.netlify.app/" className="projectName">GalaxyShop </a>
+            <p className="projectLang">Vue/SCSS</p>
           </div>
         </div>
       </div>

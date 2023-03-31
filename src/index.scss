@@ -249,12 +249,9 @@ button {
     justify-content: space-between;
     min-height: 100vh;
     
-    @media screen and (min-width: 768px) {
-        background-image: url(assets/images/background.webp);
-        background-position: center;
-        background-size: cover;
-        filter: brightness(.9);
-    }
+    background-image: url(assets/images/background.webp);
+    background-size: cover;
+    background-position: center;
 }
 
 .mainWrap{
