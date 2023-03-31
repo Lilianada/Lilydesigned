@@ -1,10 +1,9 @@
 .desktopHeader {
-    // display: none;
-    padding: 1rem 1rem 2rem;
-    @media screen and (min-width: 768px) {
         display: block;
-        padding: 1rem 2rem;
-    }
+        padding-top: 3.5rem;
+        width: 85%;
+        margin: 0 auto;
+    
 
     .navItems {
         display: flex;
@@ -13,7 +12,7 @@
 
         .logoName {
             font-family: var(--font-text);
-            font-size: 1.15rem;
+            font-size: 1.5rem;
             font-weight: 600;
             line-height: 1.5rem;
             color: var(--white);
@@ -21,14 +20,14 @@
             display: flex;
             align-items: center;
 
-            &:first-child{
-                margin-right: .75rem;
+            &:first-child {
+                margin-right: 0.75rem;
             }
         }
 
         .activeLogo {
             font-family: var(--font-text);
-            font-size: 1.15rem;
+            font-size: 1.5rem;
             font-weight: 600;
             line-height: 1.5rem;
             color: var(--litePink);
@@ -36,15 +35,15 @@
             display: flex;
             align-items: center;
 
-            &:first-child{
-                margin-right: .75rem;
+            &:first-child {
+                margin-right: 0.75rem;
             }
         }
 
         .navList {
             display: flex;
 
-            .navItem {                
+            .navItem {
                 margin-right: 1rem;
 
                 .navLink {
@@ -67,17 +66,19 @@
     }
 }
 
-.mobileHeader{
+.mobileHeader {
     display: none;
     justify-content: space-between;
     align-items: center;
-    margin: 2rem 1rem;
+    padding-top: 3.5rem;
+    width: 85%;
+    margin: 0 auto;
 
     @media screen and (min-width: 768px) {
         display: none;
     }
 
-    .navItems{
+    .navItems {
         display: flex;
         justify-content: space-evenly;
         align-items: center;
@@ -85,7 +86,7 @@
         border-radius: 2rem;
     }
 
-    .navList{
+    .navList {
         display: none;
         width: 100vw;
         position: absolute;
@@ -94,14 +95,14 @@
         right: 0;
         background: var(--pink);
         border-radius: 2px;
-        animation: animate .3s ;
+        animation: animate 0.3s;
 
-        .navItem{
+        .navItem {
             display: grid;
             place-items: center;
             width: 100%;
 
-            .navLink{ 
+            .navLink {
                 font-size: var(--eighteen);
                 font-weight: 600;
                 color: var(--black);
@@ -111,7 +112,7 @@
                 padding: 1rem;
             }
 
-            .activeLink{
+            .activeLink {
                 font-size: var(--eighteen);
                 font-weight: 600;
                 background-color: var(--hotPink);
@@ -124,7 +125,7 @@
         }
     }
 
-    .show{
+    .show {
         display: grid;
         grid-template-columns: 100%;
         place-items: center;
@@ -133,11 +134,9 @@
     @keyframes animate {
         from {
             transform: scale(0.5);
-          }
-          to {
+        }
+        to {
             transform: scale(1);
-          }
+        }
     }
-
-
 }

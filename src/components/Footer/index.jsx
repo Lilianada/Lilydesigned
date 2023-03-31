@@ -5,6 +5,7 @@ import "./style.scss";
 export default function Footer() {
   return (
     <footer>
+      
       <ul className="footerLinks">
         <li className="footerLink">
           <a href="https://linkedin.com/in/Lilianada" target="_blank" className="socialLink" rel="noreferrer">

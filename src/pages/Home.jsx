@@ -5,6 +5,7 @@ import Pic from "../assets/images/LilyAvatar.jpg";
 import Resume from "../assets/images/LilianResume.pdf";
 import { Helmet } from "react-helmet-async";
 import "../components/Hero/style.scss";
+import { BsDownload } from "react-icons/bs";
 
 export default function Home() {
   return (
@@ -39,14 +40,15 @@ export default function Home() {
               <p className="text">
                 Pronouns: She/her
                 <br />
-                I am a Frontend Developer who is mostly interested in bridging the gap between organizations, businesses, and their users by creating user-friendly UI components and bringing products to life. I am currently working remotely as a Frontend Developer at Supreme Marketing Limited.
-                Creating clean interfaces and thoughtful user experiences are my strengths - bringing them to life is where I stand out.
+                I am a Frontend Developer who is mostly interested in bridging the gap between organizations, businesses, and their users by creating user-friendly UI components and bringing products to life. {" "}
+                I have over two years of experience building products for clients across the globe. 
+                
               </p>
               <p className="text">
-                I am an open-minded and communicative person who cares a lot about details. I enjoy my work and have passion for everything related to it.
+              Currently, I work remotely as a Frontend engineer at Supreme Marketing Limited. I enjoy my work and have passion for everything related to it.
               </p>
               <a href={Resume} download className="btnPrimary">
-                Curriculum Vitae
+                <BsDownload className="downloadBtn" /> Curriculum Vitae
               </a>
             </div>
           </div>
@@ -59,21 +61,21 @@ export default function Home() {
               <div className="grid">
                 <div className="column">
                   <div className="labels">
-                    <div className="labelTitle">Frontend Development</div>
+                    <div className="labelTitle">Engineering</div>
                     <div className="labelValue">React.js, Vue.js, Flutter, Typescript
                     </div>
                     <div className="labelValue">
                     </div>
-                    <div className="labelValue">Firebase, Context API
-                    </div>
                     <div className="labelValue">HTML, CSS, Tailwind, SCSS, Styled-components
+                    </div>
+                    <div className="labelValue">Firebase, Context API
                     </div>
                   </div>
                 </div>
                 <div className="column">
                   <div className="labels">
                     <div className="labelTitle">
-                      Other
+                      Others
                     </div>
                     <div className="labelValue">
                       Agile Software Development
@@ -83,6 +85,32 @@ export default function Home() {
                     </div>
                     <div className="labelValue">
                       Heroku, Vercel, Netlify
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="grid">
+            <div className="column">
+              <h4 className="textTitle">Say Hello</h4>
+            </div>
+            <div className="column">
+              <div className="grid">
+                <div className="column">
+                  <div className="labels">
+                    <div className="labelTitle">Email</div>
+                    <div className="labelValue"><a href="mailto:Lilianokeke.ca@gmail.com">Lilianokeke.ca@gmail.com</a>
+                    </div>
+                  </div>
+                </div>
+                <div className="column">
+                  <div className="labels">
+                    <div className="labelTitle">
+                      Others
+                    </div>
+                    <div className="labelValue">
+                      <a href="http://instagram.com/defitcreative">@Defitcreative</a>
                     </div>
                   </div>
                 </div>

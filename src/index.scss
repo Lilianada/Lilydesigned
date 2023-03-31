@@ -247,11 +247,14 @@ button {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background-image: url(assets/images/background.webp);
-    background-position: center;
-    background-size: cover;
-    filter: brightness(.9);
     min-height: 100vh;
+    
+    @media screen and (min-width: 768px) {
+        background-image: url(assets/images/background.webp);
+        background-position: center;
+        background-size: cover;
+        filter: brightness(.9);
+    }
 }
 
 .mainWrap{

@@ -150,9 +150,15 @@
         background: transparent;
         border: 2px solid var(--pink);
         color: var(--white);
+        display: flex;
+        align-items: center;
 
         &:hover{
             transform: scale(.95, 1);
         }
+
+    .downloadBtn{
+        margin-right: 1rem;
+    }
     }
 }
