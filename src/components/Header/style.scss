@@ -1,10 +1,12 @@
 .desktopHeader {
         display: block;
         padding-top: 3.5rem;
-        width: 85%;
+        width: 95%;
         margin: 0 auto;
     
-
+        @media screen and (min-width: 768px) {
+            width: 85%;
+        }
     .navItems {
         display: flex;
         justify-content: space-between;

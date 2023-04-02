@@ -1,7 +1,7 @@
 .aboutHero{
     display: flex;
     flex-direction: column;
-    margin: 2rem auto;
+    margin: 4rem auto 2rem;
     align-items: center;
     justify-content: flex-start;
     text-align: center;
@@ -72,7 +72,12 @@
                 color: var(--purple);
             }
         }
-
+    }
+    .aboutContent{
+        display: flex;
+        flex-direction: column;
+        margin-top: 2rem;
+        
         .grid{
             display: flex;
             flex-direction: column;

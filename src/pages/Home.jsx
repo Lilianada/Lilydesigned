@@ -32,6 +32,8 @@ export default function Home() {
             <br />
             I'm Lilian, a <span className="colorText"> Frontend developer</span> for high impact organizations.
           </h3>
+        </div>
+        <div className="aboutContent">
           <div className="grid">
             <div className="column">
               <h4 className="textTitle">Who I am</h4>
@@ -41,11 +43,11 @@ export default function Home() {
                 Pronouns: She/her
                 <br />
                 I am a Frontend Developer who is mostly interested in bridging the gap between organizations, businesses, and their users by creating user-friendly UI components and bringing products to life. {" "}
-                I have over two years of experience building products for clients across the globe. 
-                
+                I have over two years of experience building products for clients across the globe.
+
               </p>
               <p className="text">
-              Currently, I work remotely as a Frontend engineer at Supreme Marketing Limited. I enjoy my work and have passion for everything related to it.
+                Currently, I work remotely as a Frontend engineer at Supreme Marketing Limited. I enjoy my work and have passion for everything related to it.
               </p>
               <a href={Resume} download className="btnPrimary">
                 <BsDownload className="downloadBtn" /> Curriculum Vitae
