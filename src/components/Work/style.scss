@@ -4,10 +4,10 @@
     display: flex;
     flex-direction: column;
 
-    @media screen and (min-width: 800px) {
+    @media screen and (min-width: 768px) {
         flex-direction: row;
         justify-content: space-between;
-        // margin: 2rem ;
+        margin: 2rem  auto;
     }
 
     .head {
@@ -31,13 +31,16 @@
         display: flex;
         flex-direction: column;
 
+        @media screen and (min-width: 800px) {
+        width: 55%;
+        }
+
         .workWrap {
             margin-bottom: 1rem;
             padding-bottom: 1rem;
             border-bottom: 1px solid;
 
             @media screen and (min-width: 800px) {
-                // width: 70%;
                 margin-bottom: 2rem;
             }
 
