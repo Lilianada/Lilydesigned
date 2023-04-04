@@ -64,11 +64,11 @@ export default function Home() {
                 <div className="column">
                   <div className="labels">
                     <div className="labelTitle">Engineering</div>
-                    <div className="labelValue">React.js, Vue.js, Flutter, Typescript
+                    <div className="labelValue">React.js, Vue.js, Flutter
                     </div>
                     <div className="labelValue">
                     </div>
-                    <div className="labelValue">HTML, CSS, Tailwind, SCSS, Styled-components
+                    <div className="labelValue">HTML, CSS, SCSS, Styled-components
                     </div>
                     <div className="labelValue">Firebase, Context API
                     </div>
