@@ -11,8 +11,7 @@ export default function ContactPage() {
           You can also reach me on Fiverr for freelance projects or contracts using the badge below.
         </p>
         <br/>
-        <u><a href="mailto:lilianokeke.ca@gmail.com">Lilianokeke.ca@gmail.com</a></u>
-        
+        <u><a href="mailto:lilianokeke.ca@gmail.com">Lilianokeke.ca@gmail.com</a></u> 
       <FiverrSellerWidget/>
     </section>
   );
