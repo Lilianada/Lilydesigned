@@ -42,12 +42,16 @@ export default function Home() {
               <p className="text">
                 Pronouns: She/her
                 <br />
-                I am a Frontend Developer who is mostly interested in bridging the gap between organizations, businesses, and their users by creating user-friendly UI components and bringing products to life. {" "}
-                I have over two years of experience building products for clients across the globe.
+As a dedicated Frontend Developer specializing in both Web and Mobile Development, my primary goal is to seamlessly blend form and function in order to create immersive user experiences that align with business goals.
+<p className="text">
+I am proficient in utilizing cutting-edge technologies such as React.js, Vue.js for web development, and Flutter/dart for mobile applications. In addition to my core skills, my proficiency extends to HTML5, CSS3, JavaScript, TypeScript, and other associated tools.
+<br/><br/>
+With over two years of hands-on experience, I have developed and shipped innovative products to clients worldwide, ranging from startups to established corporations. Currently, I am furthering my expertise as the Lead Frontend Engineer with Supreme Marketing Limited, where I continue to enhance and refine my skills in user interface design and development.
+<br/>
 
               </p>
               <p className="text">
-                Currently, I work remotely as a Frontend engineer at Supreme Marketing Limited. I enjoy my work and have passion for everything related to it.
+                I maintain a fervent passion for frontend development, consistently seeking out opportunities to leverage modern frameworks and libraries to deliver aesthetically pleasing, performant, and user-centric applications. I am always eager to learn and adapt to new technologies and best practices, ensuring that the digital products I create are not only functional, but also intuitive, accessible, and visually captivating.
               </p>
               <a href={Resume} download className="btnPrimary">
                 <BsDownload className="downloadBtn" /> Curriculum Vitae
