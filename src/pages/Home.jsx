@@ -48,8 +48,8 @@ export default function Home() {
                 I am proficient in utilizing cutting-edge technologies such as React.js, Vue.js for web development, and Flutter/dart for mobile applications. In addition to my core skills, my proficiency extends to HTML5, CSS3, JavaScript, TypeScript, and other associated tools.
               </p>
               <p className="text">
-                With over two years of hands-on experience, I have developed and shipped innovative products to clients worldwide, ranging from startups to established corporations. Currently, I am furthering my expertise as the Lead Frontend Engineer with Supreme Marketing Limited, where I continue to enhance and refine my skills in user interface design and development.
-              </p>
+                With over two years of hands-on experience, I have developed and shipped innovative products to clients worldwide, ranging from startups to established corporations. 
+                </p>
               <p className="text">
                 I maintain a fervent passion for frontend development, consistently seeking out opportunities to leverage modern frameworks and libraries to deliver aesthetically pleasing, performant, and user-centric applications. I am always eager to learn and adapt to new technologies and best practices, ensuring that the digital products I create are not only functional, but also intuitive, accessible, and visually captivating.
               </p>
