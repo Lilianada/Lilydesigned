@@ -75,7 +75,7 @@ export default function Home() {
                     </div>
                     <div className="labelValue">HTML, CSS, SCSS, Styled-components
                     </div>
-                    <div className="labelValue">Firebase, Context API
+                    <div className="labelValue">Firebase, Context API, Redux
                     </div>
                   </div>
                 </div>
@@ -85,13 +85,13 @@ export default function Home() {
                       Others
                     </div>
                     <div className="labelValue">
+                     Vercel, Netlify, Heroku, 
+                    </div>
+                    <div className="labelValue">
                       Agile Software Development
                     </div>
                     <div className="labelValue">
                       Project Management
-                    </div>
-                    <div className="labelValue">
-                      Heroku, Vercel, Netlify
                     </div>
                   </div>
                 </div>
