@@ -64,7 +64,8 @@ export default function Header() {
             >
               <Link
                 to="https://defitcreative-aliexpress.vercel.app/"
-                className={active === 2 ? "activeLink" : "navLink"}
+                className="navLink"
+                target="break"
               >
                 Store-Front
               </Link>
