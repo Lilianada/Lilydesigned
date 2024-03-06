@@ -59,19 +59,6 @@ export default function Header() {
             </motion.li>
             <motion.li
               className="navItem"
-              onClick={() => isActive(2)}
-              whileHover={{ scale: 0.9 }}
-            >
-              <Link
-                to="https://defitcreative-aliexpress.vercel.app/"
-                className="navLink"
-                target="break"
-              >
-                Store-Front
-              </Link>
-            </motion.li>
-            <motion.li
-              className="navItem"
               onClick={() => isActive(3)}
               whileHover={{ scale: 0.9 }}
             >
