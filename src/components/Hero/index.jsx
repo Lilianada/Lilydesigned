@@ -1,6 +1,6 @@
 import React from "react";
 import Pic from "../../../src/assets/images/LilyAvatar.jpg";
-import Resume from "../../../src/assets/images/LilianResume.pdf";
+import Resume from "../../../src/assets/images/LilianOkeke.pdf";
 import "./style.scss";
 
 export default function Hero() {
