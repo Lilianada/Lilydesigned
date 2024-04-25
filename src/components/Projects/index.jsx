@@ -8,6 +8,7 @@ import Pic4 from "../../assets/images/BeBlended.png";
 import Pic7 from "../../assets/images/BuildingBloques.png";
 import Pic10 from "../../assets/images/Thevideogamevault.png";
 import Pic11 from "../../assets/images/Funconnect.png";
+import Pic12 from "../../assets/images/Firmco.png";
 import "./style.scss";
 
 export default function Projects() {
@@ -52,6 +53,36 @@ export default function Projects() {
           <div className="contentContainer">
             <img
               className="projectImage"
+              src={Pic12}
+              alt="Screenshot of the website of Funconnect"
+            />
+            <h3 className="contentTitle">
+              Firmco Online Portfolio Management (Admin)
+              <a
+                className="arrowContainer"
+                href="https://firmco-admin.vercel.app/"
+              >
+                {" "}
+                <BsArrowUpRight size={18} fill="#718cfb" />{" "}
+              </a>
+            </h3>
+            <div className="contentText">
+              <span className="lang">REACT/TAILWIND/FIREBASE</span>
+              <p className="text">
+                Firmco oniline portfolio management admin app built with React
+                on the frontend, Tailwind CSS for styling, and Firebase for
+                authentication, database management, and stock API integration.
+                It controls and oversees every aspect of the financial
+                transactions and user management within the Firmco platform.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div className="projectContainer">
+          <div className="contentContainer">
+            <img
+              className="projectImage"
               src={Pic11}
               alt="Screenshot of the website of Funconnect"
             />
@@ -65,7 +96,12 @@ export default function Projects() {
             <div className="contentText">
               <span className="lang">REACT/SCSS</span>
               <p className="text">
-                Funconnect is a social platform that connects like-minds and facilitates connections between people who share similar interests. I worked closely with the ui/ux designer to create a platform that is both user friendly and visually appealing. I also implemented the backend logic that ensures the platform functions as intended.
+                Funconnect is a social platform that connects like-minds and
+                facilitates connections between people who share similar
+                interests. I worked closely with the ui/ux designer to create a
+                platform that is both user friendly and visually appealing. I
+                also implemented the backend logic that ensures the platform
+                functions as intended.
               </p>
             </div>
           </div>
@@ -157,6 +193,30 @@ export default function Projects() {
           <div className="contentContainer">
             <img
               className="projectImage"
+              src={Pic1}
+              alt="Screenshot of the website of Cloudnimi"
+            />
+            <h3 className="contentTitle">
+              Journals Your Way
+              <a className="arrowContainer" href="https://journalsyourway.com">
+                {" "}
+                <BsArrowUpRight size={18} fill="#acf6f0" />{" "}
+              </a>
+            </h3>
+            <div className="contentText">
+              <span className="lang">WordPress/Elementor</span>
+              <p className="text">
+                An eCommerce store that focuses on selling journals and note
+                books to people across the US.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div className="projectContainer">
+          <div className="contentContainer">
+            <img
+              className="projectImage"
               src={Pic10}
               alt="Screenshot of the website of The Video Game Vault"
             />
@@ -176,30 +236,6 @@ export default function Projects() {
                 The Video Game Vault is a simple website for a gamer where he
                 has all his youtube videos linked as well as articles about the
                 games he plays.
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <div className="projectContainer">
-          <div className="contentContainer">
-            <img
-              className="projectImage"
-              src={Pic1}
-              alt="Screenshot of the website of Cloudnimi"
-            />
-            <h3 className="contentTitle">
-              Journals Your Way
-              <a className="arrowContainer" href="https://journalsyourway.com">
-                {" "}
-                <BsArrowUpRight size={18} fill="#acf6f0" />{" "}
-              </a>
-            </h3>
-            <div className="contentText">
-              <span className="lang">WordPress/Elementor</span>
-              <p className="text">
-                An eCommerce store that focuses on selling journals and note
-                books to people across the US.
               </p>
             </div>
           </div>
