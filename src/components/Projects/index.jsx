@@ -57,7 +57,7 @@ export default function Projects() {
               alt="Screenshot of the website of Funconnect"
             />
             <h3 className="contentTitle">
-              Firmco Online Portfolio Management (Admin)
+              Firmco (Admin)
               <a
                 className="arrowContainer"
                 href="https://firmco-admin.vercel.app/"
