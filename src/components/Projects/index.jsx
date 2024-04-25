@@ -176,7 +176,7 @@ export default function Projects() {
               </a>
             </h3>
             <div className="contentText">
-              <span className="lang">React/Tailwind</span>
+              <span className="lang">REACT/TAILWIND/</span>
               <p className="text">
                 BuildingBloques is a B2B platform that helps businesses bring
                 their creative visions to life. They offer a collaborative
@@ -204,7 +204,7 @@ export default function Projects() {
               </a>
             </h3>
             <div className="contentText">
-              <span className="lang">WordPress/Elementor</span>
+              <span className="lang">WORDPRESS/ELEMENTOR</span>
               <p className="text">
                 An eCommerce store that focuses on selling journals and note
                 books to people across the US.
