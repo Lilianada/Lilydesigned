@@ -64,7 +64,7 @@ export default function Projects() {
                 href="https://firmco-admin.vercel.app/"
               >
                 {" "}
-                <BsArrowUpRight size={18} fill="#718cfb" />{" "}
+                <BsArrowUpRight size={18} fill="#71f6fb" />{" "}
               </a>
             </h3>
             <div className="contentText">
@@ -84,7 +84,7 @@ export default function Projects() {
           <div className="contentContainer">
             <img
               className="projectImage"
-              src={Pic12}
+              src={Pic13}
               alt="Screenshot of the website of Funconnect"
             />
             <h3 className="contentTitle">
@@ -94,7 +94,7 @@ export default function Projects() {
                 href="https://firmco-admin.vercel.app/"
               >
                 {" "}
-                <BsArrowUpRight size={18} fill="#718cfb" />{" "}
+                <BsArrowUpRight size={18} fill="#1b4a86" />{" "}
               </a>
             </h3>
             <div className="contentText">
@@ -226,7 +226,7 @@ export default function Projects() {
               Journals Your Way
               <a className="arrowContainer" href="https://journalsyourway.com">
                 {" "}
-                <BsArrowUpRight size={18} fill="#acf6f0" />{" "}
+                <BsArrowUpRight size={18} fill="#d4950d" />{" "}
               </a>
             </h3>
             <div className="contentText">
