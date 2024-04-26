@@ -14,6 +14,13 @@ export default function Work() {
       <div className="workList">
         <div className="workWrap">
           <div className="projectDescription">
+            <a href="/" className="projectName">Lilian's Portfolio</a>
+            <p className="projectLang">REACT/SCSS</p>
+          </div>
+        </div>
+
+        <div className="workWrap">
+          <div className="projectDescription">
             <a href="https://github-user-profile-search.netlify.app/" className="projectName">Aliexpress Storefront </a>
             <p className="projectLang">REACT/CSS</p>
           </div>

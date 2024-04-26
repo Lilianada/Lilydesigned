@@ -9,6 +9,7 @@ import Pic7 from "../../assets/images/BuildingBloques.png";
 import Pic10 from "../../assets/images/Thevideogamevault.png";
 import Pic11 from "../../assets/images/Funconnect.png";
 import Pic12 from "../../assets/images/Firmco.png";
+import Pic13 from "../../assets/images/Chatter.png";
 import "./style.scss";
 
 export default function Projects() {
@@ -69,11 +70,37 @@ export default function Projects() {
             <div className="contentText">
               <span className="lang">REACT/TAILWIND/FIREBASE</span>
               <p className="text">
-                Firmco oniline portfolio management admin app built with React
+                Firmco online portfolio management admin app built with React
                 on the frontend, Tailwind CSS for styling, and Firebase for
                 authentication, database management, and stock API integration.
                 It controls and oversees every aspect of the financial
                 transactions and user management within the Firmco platform.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div className="projectContainer">
+          <div className="contentContainer">
+            <img
+              className="projectImage"
+              src={Pic12}
+              alt="Screenshot of the website of Funconnect"
+            />
+            <h3 className="contentTitle">
+              Chatter App
+              <a
+                className="arrowContainer"
+                href="https://firmco-admin.vercel.app/"
+              >
+                {" "}
+                <BsArrowUpRight size={18} fill="#718cfb" />{" "}
+              </a>
+            </h3>
+            <div className="contentText">
+              <span className="lang">REACT/TAILWIND/FIREBASE</span>
+              <p className="text">
+                The Chatter app is an engaging web app for writers to share their thoughts, stories, and expertise with a global audience. It's a web app similar to Medium, built with React.js, tailwind css for styling and firebase for authentication and database.
               </p>
             </div>
           </div>
@@ -99,8 +126,8 @@ export default function Projects() {
                 Funconnect is a social platform that connects like-minds and
                 facilitates connections between people who share similar
                 interests. I worked closely with the ui/ux designer to create a
-                platform that is both user friendly and visually appealing. I
-                also implemented the backend logic that ensures the platform
+                platform that is both user friendly and visually appealing. 
+                Also implemented the backend logic that ensures the platform
                 functions as intended.
               </p>
             </div>
@@ -127,8 +154,34 @@ export default function Projects() {
             <div className="contentText">
               <span className="lang">REACT/CSS</span>
               <p className="text">
-                A company's website that helps their clients build businesses by
+                Cloudnimi is a single page B2B website for a Nigerian company that helps build businesses by
                 designing & implementing production-grade business needs.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div className="projectContainer">
+          <div className="contentContainer">
+            <img
+              className="projectImage"
+              src={Pic7}
+              alt="Screenshot of the website of BuilingBloques"
+            />
+            <h3 className="contentTitle">
+              Building Bloques 
+              <a className="arrowContainer" href="https://buildingbloques.com/">
+                {" "}
+                <BsArrowUpRight size={18} fill="#f7c0cf" />{" "}
+              </a>
+            </h3>
+            <div className="contentText">
+              <span className="lang">REACT/TAILWIND/</span>
+              <p className="text">
+                BuildingBloques is a 2 page B2B website built with React and tailwind. They offers businesses services that bring
+                their creative visions to life. They offer a collaborative
+                approach, working closely with clients to understand their goals
+                and develop customized solutions. 
               </p>
             </div>
           </div>
@@ -153,7 +206,7 @@ export default function Projects() {
                 REACT/SCSS
               </a>
               <p className="text">
-                A simple website for a mobile game company that provides more
+                A simple website for a mobile game company based in the US that provides more
                 information about the company as well as its terms and
                 conditions.
               </p>
@@ -161,33 +214,6 @@ export default function Projects() {
           </div>
         </div>
 
-        <div className="projectContainer">
-          <div className="contentContainer">
-            <img
-              className="projectImage"
-              src={Pic7}
-              alt="Screenshot of the website of BuilingBloques"
-            />
-            <h3 className="contentTitle">
-              Building Bloques Creative Studio
-              <a className="arrowContainer" href="https://buildingbloques.com/">
-                {" "}
-                <BsArrowUpRight size={18} fill="#f7c0cf" />{" "}
-              </a>
-            </h3>
-            <div className="contentText">
-              <span className="lang">REACT/TAILWIND/</span>
-              <p className="text">
-                BuildingBloques is a B2B platform that helps businesses bring
-                their creative visions to life. They offer a collaborative
-                approach, working closely with clients to understand their goals
-                and develop customized solutions. Their services may include
-                branding, web design, custom software development, or a
-                combination of these, depending on your specific project needs.
-              </p>
-            </div>
-          </div>
-        </div>
 
         <div className="projectContainer">
           <div className="contentContainer">
@@ -206,7 +232,7 @@ export default function Projects() {
             <div className="contentText">
               <span className="lang">WORDPRESS/ELEMENTOR</span>
               <p className="text">
-                An eCommerce store that focuses on selling journals and note
+                An eCommerce store owned by a US based event planner that focuses on selling journals and note
                 books to people across the US.
               </p>
             </div>

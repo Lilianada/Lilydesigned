@@ -41,7 +41,8 @@ export default function Home() {
             <div className="column">
               <p className="text">
                 Pronouns: She/her
-                <br />
+                <p />
+                <p className="text">
                 As a dedicated Software Developer specializing in frontend web development, my primary goal is to create user experiences that align with individuals, organizations, and business goals.
               </p>
               <p className="text">
