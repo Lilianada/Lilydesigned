@@ -10,6 +10,7 @@ import Pic6 from "../../assets/images/EasyFind.png";
 import Pic7 from "../../assets/images/Funconnect.png";
 import Pic8 from "../../assets/images/Firmco.png";
 import Pic9 from "../../assets/images/Chatter.png";
+import Pic10 from "../../assets/images/Firmco-Client.png";
 import "./style.scss";
 
 const AllProjects = [
@@ -33,6 +34,15 @@ const AllProjects = [
   },
   {
     id: 3,
+    title: "Firmco (Client)",
+    image: Pic10,
+    link: "https://firmco-client.vercel.app/",
+    lang: "REACT/TAILWIND/FIREBASE",
+    text:
+      "Firmco online portfolio management client app built with React on the frontend, Tailwind CSS for styling, and Firebase for authentication, database management, and stock API integration. It is controlled by the Firmco Admin Platform.",
+  },
+  {
+    id: 4,
     title: "Funconnect",
     image: Pic7,
     link: "https://funconnect.app/",
@@ -41,7 +51,7 @@ const AllProjects = [
       "Funconnect is a social platform that connects like-minds and facilitates connections between people who share similar interests. I worked closely with the ui/ux designer to create a platform that is both user friendly and visually appealing. Also implemented the backend logic that ensures the platform functions as intended.",
   },
   {
-    id: 4,
+    id: 5,
     title: "Cloudnimi",
     image: Pic3,
     link: "https://cloudnimi.netlify.app/",
@@ -50,7 +60,7 @@ const AllProjects = [
       "Cloudnimi is a single page B2B website for a Nigerian company that helps build businesses by designing & implementing production-grade business needs. The website was built with React.js and styled with CSS. It's a simple website that provides information about the company and its services.",
   },
   {
-    id: 5,
+    id: 6,
     title: "Building Bloques",
     image: pic5,
     link: "https://buildingbloques.com/",
@@ -59,7 +69,7 @@ const AllProjects = [
       "BuildingBloques is a 2 page B2B website built with React and tailwind. They offers businesses services that bring their creative visions to life. They offer a collaborative approach, working closely with clients to understand their goals and develop customized solutions.",
   },
   {
-    id: 6,
+    id: 7,
     title: "Coloring Cultures",
     image: Pic2,
     link: "https://coloringcultures.app",
@@ -68,7 +78,7 @@ const AllProjects = [
       "A simple website for a mobile game company based in the US that provides more information about the company as well as its terms and conditions. The website was built with React.js and styled with SCSS.",
   },
   {
-    id: 7,
+    id: 8,
     title: "Journals Your Way",
     image: Pic1,
     link: "https://journalsyourway.com",
@@ -77,7 +87,7 @@ const AllProjects = [
       "An eCommerce store owned by a US based event planner that focuses on selling journals and note books to people across the US. The website was built with Wordpress and Elementor.",
   },
   {
-    id: 8,
+    id: 9,
     title: "Chatter App",
     image: Pic9,
     link: "/",
@@ -86,7 +96,7 @@ const AllProjects = [
       "The Chatter app is an engaging web app for writers to share their thoughts, stories, and expertise with a global audience. It's a web app similar to Medium, built with React.js, tailwind css for styling and firebase for authentication and database.",
   },
   {
-    id: 9,
+    id: 10,
     title: "Easy Find",
     image: Pic6,
     link: "/",
