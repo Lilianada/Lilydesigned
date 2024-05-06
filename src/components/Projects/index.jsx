@@ -11,8 +11,8 @@ import Pic7 from "../../assets/images/Funconnect.png";
 import Pic8 from "../../assets/images/Firmco.png";
 import Pic9 from "../../assets/images/Chatter.png";
 import Pic10 from "../../assets/images/Firmco-Client.png";
-import "./style.scss";
 import { Link } from "react-router-dom";
+import "./style.scss";
 
 const AllProjects = [
   {
