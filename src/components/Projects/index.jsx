@@ -12,6 +12,7 @@ import Pic8 from "../../assets/images/Firmco.png";
 import Pic9 from "../../assets/images/Chatter.png";
 import Pic10 from "../../assets/images/Firmco-Client.png";
 import "./style.scss";
+import { Link } from "react-router-dom";
 
 const AllProjects = [
   {
@@ -122,7 +123,7 @@ export default function Projects() {
         <div className="projectContainer" key={
           project.id
         }>
-          <div className="contentContainer">
+          <Link to={project.link} className="contentContainer">
             <img
               className="projectImage"
               src={project.image}
@@ -130,10 +131,10 @@ export default function Projects() {
             />
             <h3 className="contentTitle">
               {project.title}
-              <a className="arrowContainer" href={project.link}>
+              <Link className="arrowContainer" to={project.link}>
                 {" "}
                 <BsArrowUpRight size={18} fill="#F2CBF6" />{" "}
-              </a>
+              </Link>
             </h3>
             <div className="contentText">
               <span className="lang">{project.lang}</span>
@@ -141,7 +142,7 @@ export default function Projects() {
                {project.text}
               </p>
             </div>
-          </div>
+          </Link>
         </div>
         ))}
       </div>
