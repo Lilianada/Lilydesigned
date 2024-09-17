@@ -123,7 +123,7 @@ export default function Projects() {
         <div className="projectContainer" key={
           project.id
         }>
-          <Link to={project.link} className="contentContainer">
+          <a href={project.link} className="contentContainer">
             <img
               className="projectImage"
               src={project.image}
@@ -142,7 +142,7 @@ export default function Projects() {
                {project.text}
               </p>
             </div>
-          </Link>
+          </a>
         </div>
         ))}
       </div>
