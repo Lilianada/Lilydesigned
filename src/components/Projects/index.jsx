@@ -131,7 +131,7 @@ export default function Projects() {
             />
             <h3 className="contentTitle">
               {project.title}
-              <Link className="arrowContainer" to={project.link}>
+              <Link className="arrowContainer" to={project.link} target="_blank">
                 {" "}
                 <BsArrowUpRight size={18} fill="#F2CBF6" />{" "}
               </Link>
